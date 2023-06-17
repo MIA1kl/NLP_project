@@ -7,18 +7,14 @@ nlp = spacy.load("en_core_web_md")
 
 
 # Calculate answer length
-def calculate_answer_squad_length(answer_squad):
-    return len(answer_squad.split())
-
-# Calculate answer length
-def calculate_answer_race_length(answer_race):
-    return len(answer_race.split())
+def calculate_answer_length(answer):
+    return len(answer.split())
 
 # Calculate proximity between question and answer in context
-def calculate_squad_proximity(question_squad, answer_squad, context):
+def calculate_proximity(question, answer, context):
     doc = nlp(context)
-    question_similarity = nlp(question_squad).similarity(doc)
-    answer_similarity = nlp(answer_squad).similarity(doc)
+    question_similarity = nlp(question).similarity(doc)
+    answer_similarity = nlp(answer).similarity(doc)
     
     # Calculate the average proximity score
     proximity_score = (question_similarity + answer_similarity) / 2
@@ -26,28 +22,9 @@ def calculate_squad_proximity(question_squad, answer_squad, context):
     # Return the proximity score
     return proximity_score
 
-# Calculate proximity between question and answer in context
-def calculate_race_proximity(question_race, answer_race, context):
-    doc = nlp(context)
-    question_similarity = nlp(question_race).similarity(doc)
-    answer_similarity = nlp(answer_race).similarity(doc)
-    
-    # Calculate the average proximity score
-    proximity_score = (question_similarity + answer_similarity) / 2
-    
-    # Return the proximity score
-    return proximity_score
-
-def calculate_rouge_squad_score(answer_squad, reference):
+def calculate_rouge_score(answer, reference):
     scorer = rouge_scorer.RougeScorer(['rouge1'], use_stemmer=True)
-    scores = scorer.score(answer_squad, reference)
-    
-    # Return the ROUGE-1 F1 score
-    return scores['rouge1'].fmeasure
-
-def calculate_rouge_race_score(answer_race, reference):
-    scorer = rouge_scorer.RougeScorer(['rouge1'], use_stemmer=True)
-    scores = scorer.score(answer_race, reference)
+    scores = scorer.score(answer, reference)
     
     # Return the ROUGE-1 F1 score
     return scores['rouge1'].fmeasure
@@ -63,14 +40,13 @@ def create_subset(data_points, subset_path):
         answer_squad = data_point["answer_squad"]
         text = data_point["text"]
         
-        answer_length_squad = calculate_answer_squad_length(answer_squad)
-        proximity_squad = calculate_squad_proximity(question_squad, answer_squad, text)
-        rouge_score_squad = calculate_rouge_squad_score(answer_squad, text)  # Pass answer and text (context)
+        answer_length_race = calculate_answer_length(answer_race)
+        proximity_race = calculate_proximity(question_race, answer_race, text)
+        rouge_score_race = calculate_rouge_score(answer_race, text)
         
-        answer_length_race = calculate_answer_race_length(answer_race)
-        proximity_race = calculate_race_proximity(question_race, answer_race, text)
-        rouge_score_race = calculate_rouge_race_score(answer_race, text)  # Pass answer and text (context)
-        
+        answer_length_squad = calculate_answer_length(answer_squad)
+        proximity_squad = calculate_proximity(question_squad, answer_squad, text)
+        rouge_score_squad = calculate_rouge_score(answer_squad, text)
         
         subset_data_point = {
             "question_race": question_race,
@@ -78,13 +54,12 @@ def create_subset(data_points, subset_path):
             "question_squad": question_squad,
             "answer_squad": answer_squad,
             "text": text,
-            "answer_length_squad": answer_length_squad,
-            "proximity_squad": proximity_squad,
-            "rouge_score_squad": rouge_score_squad,
             "answer_length_race": answer_length_race,
             "proximity_race": proximity_race,
             "rouge_score_race": rouge_score_race,
-            
+            "answer_length_squad": answer_length_squad,
+            "proximity_squad": proximity_squad,
+            "rouge_score_squad": rouge_score_squad,
         }
         
         processed_dataset.append(subset_data_point)
@@ -133,25 +108,11 @@ subset_file_path = "subset_dataset.json"
 # Read the dataset file and create the subset
 subset = read_dataset_file(dataset_file_path)
 
-# Print the subset
-for data in subset:
-    print(data)
-    
 # Read the subset file
 with open(subset_file_path, 'r') as f:
     subset_data = json.load(f)
 
-# Print the contents of each data point in the subset
-for data_point in subset_data:
-    print("Question (RACE):", data_point["question_race"])
-    print("Answer (RACE):", data_point["answer_race"])
-    print("Question (SQuAD):", data_point["question_squad"])
-    print("Answer (SQuAD):", data_point["answer_squad"])
-    print("Context Text:", data_point["text"])
-    print("Answer Length race:", data_point["answer_length_race"])
-    print("Proximity Score race:", data_point["proximity_race"])
-    print("ROUGE Score race:", data_point["rouge_score_race"])
-    print("Answer Length squad:", data_point["answer_length_squad"])
-    print("Proximity Score squad:", data_point["proximity_squad"])
-    print("ROUGE Score squad:", data_point["rouge_score_squad"])
-    print("-----------------------------------")
+# Write the subset data to a new JSON file
+output_file_path = "subset_output.json"
+with open(output_file_path, 'w') as f:
+    json.dump(subset_data, f, indent=4)
