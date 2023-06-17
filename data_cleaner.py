@@ -1,5 +1,5 @@
 import json
-import aiofiles
+# import aiofiles
 
 import asyncio
 import os
@@ -24,7 +24,7 @@ class AsyncJSONCleaner:
         file = json.load(open(filename, "r"))
         res = await self.clean_line(file)
         with open("cleaned-" + filename, "a+") as f:
-            json.dump(res, f, indent=1)
+            json.dump(res, f, indent=1, ensure_ascii=False)
 
     async def main(self):
         tasks = []
