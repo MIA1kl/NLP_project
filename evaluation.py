@@ -2,22 +2,22 @@ import spacy
 from rouge import Rouge
 import json
 
-
 # Load the spaCy model
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_md")
+
 
 # Calculate answer length
 def calculate_answer_length(answer):
     return len(answer.split())
 
-# Calculate proximity between question words and answer in context
+# Calculate proximity between question and answer in context
 def calculate_proximity(question, answer, context):
     doc = nlp(context)
-    question_tokens = nlp(question)
-    answer_tokens = nlp(answer)
+    question_similarity = nlp(question).similarity(doc)
+    answer_similarity = nlp(answer).similarity(doc)
     
-    # Calculate the proximity score
-    proximity_score = any(question_token.text in answer for question_token in question_tokens)
+    # Calculate the average proximity score
+    proximity_score = (question_similarity + answer_similarity) / 2
     
     # Return the proximity score
     return proximity_score
@@ -29,6 +29,7 @@ def calculate_rouge_score(question, answer, reference):
     
     # Return the ROUGE score
     return scores[0]["rouge-1"]["f"]
+
 
 # Apply selection rules and create a subset
 def create_subset(data_points, subset_path):
@@ -93,7 +94,7 @@ def read_dataset_file(file_path, chunk_size=1000):
     return dataset
 
 # Specify the path to your dataset file
-dataset_file_path = "cleaned_dataset/qa_pairs-cleaned-final.jsonl"
+dataset_file_path = "cleaned_dataset/qa_pairs-cleaned-final.json"
 
 # Specify the path for the subset file
 subset_file_path = "subset_dataset.json"
@@ -104,3 +105,19 @@ subset = read_dataset_file(dataset_file_path)
 # Print the subset
 for data in subset:
     print(data)
+    
+# Read the subset file
+with open(subset_file_path, 'r') as f:
+    subset_data = json.load(f)
+
+# Print the contents of each data point in the subset
+for data_point in subset_data:
+    print("Question (RACE):", data_point["question_race"])
+    print("Answer (RACE):", data_point["answer_race"])
+    print("Question (SQuAD):", data_point["question_squad"])
+    print("Answer (SQuAD):", data_point["answer_squad"])
+    print("Context Text:", data_point["text"])
+    print("Answer Length:", data_point["answer_length"])
+    print("Proximity Score:", data_point["proximity"])
+    print("ROUGE Score:", data_point["rouge_score"])
+    print("-----------------------------------")
