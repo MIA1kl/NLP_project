@@ -17,8 +17,8 @@ def calculate_proximity(question, answer, context):
     answer_tokens = nlp(answer)
     
     # Calculate the proximity score
-    proximity_score = any(question_token.text in answer_tokens for question_token in question_tokens)
-
+    proximity_score = any(question_token.text in answer for question_token in question_tokens)
+    
     # Return the proximity score
     return proximity_score
 
