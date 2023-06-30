@@ -2,6 +2,8 @@ import os
 import spacy
 from rouge_score import rouge_scorer
 import json
+import numpy as np
+from scipy.spatial.distance import cosine
 
 # Load the spaCy model
 nlp = spacy.load("en_core_web_md")
@@ -13,74 +15,60 @@ def calculate_answer_length(answer):
 # Calculate proximity between question and answer in context
 def calculate_proximity(question, answer, context):
     doc = nlp(context)
-    question_similarity = nlp(question).similarity(doc)
-    
-    if answer.strip():
-        answer_similarity = nlp(answer).similarity(doc)
-    else:
-        answer_similarity = 0.0
+    question_vector = nlp(question).vector
+    answer_vector = nlp(answer).vector if answer.strip() else nlp('').vector
 
-    # Calculate the average proximity score
-    proximity_score = (question_similarity + answer_similarity) / 2
+    # Check for zero magnitude vectors
+    if np.count_nonzero(question_vector) == 0 or np.count_nonzero(answer_vector) == 0:
+        return 0.0
 
-    # Return the proximity score
+    proximity_score = 1 - cosine(question_vector, answer_vector)
     return proximity_score
 
+# Calculate ROUGE-1 F1 score
 def calculate_rouge_score(answer, reference):
     scorer = rouge_scorer.RougeScorer(['rouge1'], use_stemmer=True)
     scores = scorer.score(answer, reference)
-
-    # Return the ROUGE-1 F1 score
     return scores['rouge1'].fmeasure
 
 # Apply selection rules and create a subset
 def create_subset(data_points):
     processed_dataset = []
+
     for data_point in data_points:
-        if isinstance(data_point, dict):
-            question_squad = data_point.get("question_squad")
-            answer_output_llama_7b = data_point.get("output_llama-7b")
-            answer_output_alpaca_lora_7b = data_point.get("output_alpaca-lora-7b")
-            answer_output_bloomz_7b1 = data_point.get("output_bloomz-7b1")
-            text = data_point.get("text")
+        if isinstance(data_point, dict) and all(key in data_point for key in required_keys):
+            question_squad = data_point["question_squad"]
+            text = data_point["text"]
 
-            if question_squad and answer_output_llama_7b and answer_output_alpaca_lora_7b and answer_output_bloomz_7b1 and text:
-                answer_length_output_llama_7b = calculate_answer_length(answer_output_llama_7b)
-                proximity_output_llama_7b = calculate_proximity(question_squad, answer_output_llama_7b, text)
-                rouge_score_output_llama_7b = calculate_rouge_score(answer_output_llama_7b, text)
+            subset_data_point = {
+                "question_squad": question_squad,
+                "text": text,
+            }
 
-                answer_length_output_alpaca_lora_7b = calculate_answer_length(answer_output_alpaca_lora_7b)
-                proximity_output_alpaca_lora_7b = calculate_proximity(question_squad, answer_output_alpaca_lora_7b, text)
-                rouge_score_output_alpaca_lora_7b = calculate_rouge_score(answer_output_alpaca_lora_7b, text)
+            for model_key in ["output_llama-7b", "output_alpaca-lora-7b", "output_bloomz-7b1"]:
+                answer_key = f"answer_{model_key.replace('-', '_')}"
+                answer_length_key = f"answer_length_{model_key.replace('-', '_')}"
+                proximity_key = f"proximity_{model_key.replace('-', '_')}"
+                rouge_score_key = f"rouge_score_{model_key.replace('-', '_')}"
 
-                answer_length_output_bloomz_7b1 = calculate_answer_length(answer_output_bloomz_7b1)
-                proximity_output_bloomz_7b1 = calculate_proximity(question_squad, answer_output_bloomz_7b1, text)
-                rouge_score_output_bloomz_7b1 = calculate_rouge_score(answer_output_bloomz_7b1, text)
+                answer = data_point[model_key]
+                answer_length = calculate_answer_length(answer)
+                proximity_score = calculate_proximity(question_squad, answer, text)
+                rouge_score = calculate_rouge_score(answer, text)
 
-                subset_data_point = {
-                    "question_squad": question_squad,
-                    "text": text,
-                    "answer_output_llama-7b": answer_output_llama_7b,
-                    "answer_output_alpaca-lora-7b": answer_output_alpaca_lora_7b,
-                    "answer_output_bloomz-7b1": answer_output_bloomz_7b1,
-                    "answer_length_output_llama_7b": answer_length_output_llama_7b,
-                    "proximity_output_llama_7b": proximity_output_llama_7b,
-                    "rouge_score_output_llama_7b": rouge_score_output_llama_7b,
-                    "answer_length_output_alpaca_lora_7b": answer_length_output_alpaca_lora_7b,
-                    "proximity_output_alpaca_lora_7b": proximity_output_alpaca_lora_7b,
-                    "rouge_score_output_alpaca_lora_7b": rouge_score_output_alpaca_lora_7b,
-                    "answer_length_output_bloomz_7b1": answer_length_output_bloomz_7b1,
-                    "proximity_output_bloomz_7b1": proximity_output_bloomz_7b1,
-                    "rouge_score_output_bloomz_7b1": rouge_score_output_bloomz_7b1,
-                }
+                subset_data_point[answer_key] = answer
+                subset_data_point[answer_length_key] = answer_length
+                subset_data_point[proximity_key] = proximity_score
+                subset_data_point[rouge_score_key] = rouge_score
 
-                processed_dataset.append(subset_data_point)
+            processed_dataset.append(subset_data_point)
 
     return processed_dataset
 
 # Read the dataset file and create the subset
 def read_dataset_file(file_path):
     dataset = []
+
     with open(file_path, "r") as file:
         try:
             data = json.load(file)
@@ -89,7 +77,6 @@ def read_dataset_file(file_path):
             else:
                 dataset.append(data)
         except json.JSONDecodeError:
-            # Handle invalid JSON data here if needed
             print("Invalid JSON data:", file_path)
 
     # Process the dataset
@@ -97,8 +84,7 @@ def read_dataset_file(file_path):
 
 def process_files(input_folder, output_folder):
     # Create the output folder if it doesn't exist
-    if not os.path.exists(output_folder):
-        os.makedirs(output_folder)
+    os.makedirs(output_folder, exist_ok=True)
 
     # Process each file in the input folder
     for file_name in os.listdir(input_folder):
@@ -116,6 +102,9 @@ def process_files(input_folder, output_folder):
 # Set the paths to the input and output folders
 input_folder = "group_5_cleaned"
 output_folder = "group_5_evaluated"
+
+# Define the required keys for the data points
+required_keys = ["question_squad", "output_llama-7b", "output_alpaca-lora-7b", "output_bloomz-7b1", "text"]
 
 # Process the files in the input folder and save the output in the output folder
 process_files(input_folder, output_folder)
