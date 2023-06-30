@@ -1,6 +1,4 @@
 import json
-# import aiofiles
-
 import asyncio
 import os
 
