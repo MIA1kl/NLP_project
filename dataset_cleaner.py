@@ -29,6 +29,7 @@ for file in files:
             
             cleaned_data = {
                 "question_squad": data_dict["question_squad"],
+                "answer_squad": data_dict["answer_squad"],
                 "text": data_dict["text"],
             }
             
