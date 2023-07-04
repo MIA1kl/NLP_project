@@ -18,10 +18,14 @@ def calculate_proximity(question, answer):
     answer_vector = nlp(answer).vector if answer.strip() else nlp('').vector
 
     # Check for zero magnitude vectors
-    if np.count_nonzero(question_vector) == 0 or np.count_nonzero(answer_vector) == 0:
+    if np.count_nonzero(question_vector) <= 0 or np.count_nonzero(answer_vector) <= 0:
         return 0.0
 
     proximity_score = 1 - cosine(question_vector, answer_vector)
+
+    # Clip the proximity score to the range [0, 1]
+    proximity_score = np.clip(proximity_score, 0.0, 1.0)
+
     return proximity_score
 
 # Calculate ROUGE-1 F1 score

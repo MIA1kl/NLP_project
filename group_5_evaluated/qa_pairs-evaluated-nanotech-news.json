@@ -557,7 +557,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.029850746268656723,
     "answer_output_bloomz_7b1": "99.2%",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.019219785928726196,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -621,7 +621,7 @@
     "rouge_score_output_llama_7b": 0.2222222222222222,
     "answer_output_alpaca_lora_7b": "E171. \u00a9 2023 Phys.org \u00a9 2023 Phys.org \u00a9 2023 Phys.org \u00a9 2023 Phys.org \u00a9 2023 Phys.org \u00a9 2023 Phys.org \u00a9 2023 Phys.org \u00a9 2023 Phys.org \u00a9 2023 Phys.org \u00a9 2023 Phys.org \u00a9 2023 Phys.org \u00a9 2023 Phys.org \u00a9",
     "answer_length_output_alpaca_lora_7b": 38,
-    "proximity_output_alpaca_lora_7b": -0.038510289043188095,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 0.052631578947368425,
     "answer_output_bloomz_7b1": "E171",
     "answer_length_output_bloomz_7b1": 1,
@@ -1016,7 +1016,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.13333333333333333,
     "answer_output_bloomz_7b1": "STING",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.018670519813895226,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -1186,7 +1186,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "Chad Mirkin",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.055655866861343384,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -1339,7 +1339,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.05882352941176471,
     "answer_output_bloomz_7b1": "Dr. Lizhi Xu",
     "answer_length_output_bloomz_7b1": 3,
-    "proximity_output_bloomz_7b1": -0.01756422407925129,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -1611,7 +1611,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "poly(9,9-dioctylfluorene) (PFO)",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.11868526041507721,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.33333333333333337
   },
   {
@@ -1645,7 +1645,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.16666666666666669,
     "answer_output_bloomz_7b1": "Red",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.1012406200170517,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -1696,7 +1696,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.15384615384615383,
     "answer_output_bloomz_7b1": "HE Qiyuan",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.021983526647090912,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -1832,7 +1832,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "Bradley Olsen",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.011438941583037376,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -1985,7 +1985,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.125,
     "answer_output_bloomz_7b1": "20 nm",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.010399539023637772,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.3333333333333333
   },
   {
@@ -2750,7 +2750,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.8,
     "answer_output_bloomz_7b1": "Andrew Wee",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.012610059231519699,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.8
   },
   {
@@ -3005,7 +3005,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "MXene",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.0032705359626561403,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -3328,7 +3328,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.2666666666666667,
     "answer_output_bloomz_7b1": "LION/repRNA",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.05781673267483711,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -3430,7 +3430,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "Gunnar Westman",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.07124808430671692,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -3702,7 +3702,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0909090909090909,
     "answer_output_bloomz_7b1": "G. sulfurreducens",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.1395597755908966,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.5
   },
   {
@@ -4034,7 +4034,7 @@
     "text": "In the latest advance in nano- and micro-architected materials, engineers at Caltech have developed a new material made from numerous interconnected microscale knots.          The knots make the material far tougher than identically structured but unknotted materials: they absorb more energy and are able to deform more while still being able to return to their original shape undamaged. These new knotted materials may find applications in biomedicine as well as in aerospace applications due to their durability, possible biocompatibility, and extreme deformability.\"The capability to overcome the general trade-off between material deformability and tensile toughness [the ability to be stretched without breaking] offers new ways to design devices that are extremely flexible, durable, and can operate in extreme conditions,\" says former Caltech graduate student Widianto P. Moestopo, now at Lawrence Livermore National Laboratory. Moestopo is the lead author of a paper on the nanoscale knots that was published on March 8 in Science Advances.Moestopo helped develop the material in the lab of Julia R. Greer, the Ruben F. and Donna Mettler Professor of Materials Science, Mechanics and Medical Engineering; Fletcher Jones Foundation director of the Kavli Nanoscience Institute; and senior author of the paper. Greer is at the forefront of the creation of such nano-architected materials, or materials whose structure is designed and organized at a nanometer scale and that consequently exhibit unusual, often surprising properties.The tensile strength of a material constructed with microscale knots (left), compared to that of a material that lacks knots but is otherwise structurally identical (right). Credit: Caltech\"Embarking on understanding how the knots would affect the mechanical response of micro-architected materials was a new out-of-the-box idea,\" Greer says. \"We had done extensive research on studying the mechanical deformation of many other types of micro-textiles, for example, lattices and woven materials. Venturing into the world of knots allowed us to gain deeper insights into the role of friction and energy dissipation, and proved to be meaningful.\"Each knot is around 70 micrometers in height and width, and each fiber has a radius of around 1.7 micrometers (around one-hundredth the radius of a human hair). While these are not the smallest knots ever made\u2014in 2017 chemists tied a knot made from an individual strand of atoms\u2014this does represent the first time that a material composed of numerous knots at this scale has ever been created. Further, it demonstrates the potential value of including these nanoscale knots in a material\u2014for example, for suturing or tethering in biomedicine.      The knotted materials, which were created out of polymers, exhibit a tensile toughness that far surpasses materials that are unknotted but otherwise structurally identical, including ones where individual strands are interwoven instead of knotted. When compared to their unknotted counterparts, the knotted materials absorb 92 percent more energy and require more than twice the amount of strain to snap when pulled.The knots were not tied but rather manufactured in a knotted state by using advanced high-resolution 3D lithography capable of producing structures in the nanoscale. The samples detailed in the Science Advancespaper contain simple knots\u2014an overhand knot with an extra twist that provides additional friction to absorb additional energy while the material is stretched. In the future, the team plans to explore materials constructed from more complex knots.Moestopo's interest in knots grew out of research he was conducting in 2020 during the COVID-19 lockdowns. \"I came across some works from researchers who are studying the mechanics of physical knots as opposed to knots in a purely mathematical sense. I do not consider myself a climber, a sailor, or a mathematician, but I have tied knots throughout my life, so I thought it was worth trying to insert knots into my designs,\" he says.The paper has a tongue-in-cheek title\u2014\"Knots are Not for Naught: Design, Properties, and Topology of Hierarchical Intertwined Microarchitected Materials.\"Naval Research. More information:Widianto P. Moestopo et al, Knots are not for naught: Design, properties, and topology of hierarchical intertwined microarchitected materials, Science Advances (2023).  DOI: 10.1126/sciadv.ade6725Journal information:Science AdvancesProvided byCalifornia Institute of TechnologyCitation:Knots smaller than human hair make materials unusually tough (2023, March 9)retrieved 30 May 2023from https://phys.org/news/2023-03-smaller-human-hair-materials-unusually.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "Julia R. Greer",
     "answer_length_output_llama_7b": 3,
-    "proximity_output_llama_7b": -0.023994794115424156,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.0,
     "answer_output_alpaca_lora_7b": "The professor who helped develop the knotted material is Julia R. Greer.",
     "answer_length_output_alpaca_lora_7b": 12,
@@ -4042,7 +4042,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "Julia R. Greer",
     "answer_length_output_bloomz_7b1": 3,
-    "proximity_output_bloomz_7b1": -0.023994794115424156,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -4535,7 +4535,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.5,
     "answer_output_bloomz_7b1": "Maloja",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.062413789331912994,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -4790,7 +4790,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.18181818181818182,
     "answer_output_bloomz_7b1": "Prof. Lu Junling",
     "answer_length_output_bloomz_7b1": 3,
-    "proximity_output_bloomz_7b1": -0.04119041562080383,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -5079,7 +5079,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.04878048780487806,
     "answer_output_bloomz_7b1": "KIST",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.07303693145513535,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -5130,7 +5130,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.7272727272727273,
     "answer_output_bloomz_7b1": "Piezo/Triboelectric Nanogenerator",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.00798722729086876,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.28571428571428575
   },
   {
@@ -5215,7 +5215,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0625,
     "answer_output_bloomz_7b1": "SMART",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.03038046322762966,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -5351,7 +5351,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "James Tour",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.06965866684913635,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -5368,7 +5368,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "MNM",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.01936422660946846,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -5402,7 +5402,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.3076923076923077,
     "answer_output_bloomz_7b1": "Teri Odom",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.05630055069923401,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -6163,7 +6163,7 @@
     "rouge_score_output_llama_7b": 0.13953488372093023,
     "answer_output_alpaca_lora_7b": "Spherical Nucleic Acids (SNAs)",
     "answer_length_output_alpaca_lora_7b": 4,
-    "proximity_output_alpaca_lora_7b": -0.012116950936615467,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 0.8571428571428571,
     "answer_output_bloomz_7b1": "SNAs",
     "answer_length_output_bloomz_7b1": 1,
@@ -6584,7 +6584,7 @@
     "text": "Sticking swabs up our noses and down our throats to confirm or deny whether we are infected with the coronavirus\u2014almost all of us have done it multiple times in the last couple of years.          The methods that have been used to detect and prevent the spread of the virus have been the same around the world, either:the expensive, time-consuming but very accurate PCR method where the DNA of the virus is detected in our mucous membranes, orthe simpler and faster method that only indicates whether we have developed antibodies against the virus.Ultra-fast detectionHowever, both methods have their weaknesses. The PCR method is expensive and time-consuming, while the antibody method does not tell us anything about whether we actually have the virus in the body. A simple and affordable way to detect the virus that provides a quick result would therefore be helpful.Now researchers from NTNU, Oslomet and the University of Tabriz in East Azerbaijan have demonstrated a method for detecting coronavirus in blood samples using nanosensors.\"A lot of research focuses on finding methods to quickly isolate infected people, which can break the chain of infection. Nanosensors have received a lot of attention due to their unique properties for ultra-fast detection of particles such as viruses,\" says Amir Maghoul. He is a researcher and the first author of the article \"An Optical Modeling Framework for Coronavirus Detection Using Graphene-Based Nanosensor.\" He was a post-doctoral fellow at NTNU when he started his work.A first step on the pathway to developing a separate nanosensor for the coronavirus is to identify the optical properties that distinguish the coronavirus from other particles in our blood.Ingve Simonsen, a physics professor at NTNU, explains. Most people have seen the coronavirus depicted as a round core or ball with red \"spikes\" or stems sticking out. \"We wanted to see what role the length and size of these \"spikes\" play in how the cells reflect light, as well as whether the size of the nucleus matters,\" says Simonsen.Displaces resonanceTo find answers to their questions, the researchers used mathematical models. The optical behavior of the virus\u2014that is, how the virus cell reflects light in the form of resonance\u2014was simulated and analyzed over the entire light spectrum.\"We observed that the reflectivity varied with the length of the spike proteins. As the spikes get longer, the reflectivity decreases at the same time as the resonance shifts to higher wavelengths,\" says Simonsen.The researchers observed the same response when they varied the size of the virus' core in the models. The width of the spike protein had less effect on how the light was reflected. In this way, the researchers could find out in which part of the wavelength spectrum the coronavirus differs from other particles in the blood.\"At certain wavelengths, we get a different optical response depending on whether viruses are present or not. We call this the optical signature of the coronavirus,\" says Simonsen.\"We know that the optical properties of particles change depending on their environment. They behave differently if they're in water or in a vacuum, if several particles are next to each other or if the surface is covered with a thin layer of another substance.\"                The nanomaterial graphene is used in the new COVID test method. Credit: Norwegian University of Science and Technology             Pregnancy test exampleThe first person to describe in general terms how spherical particles reflect light waves was the German scientist Gustav Mie in 1908.\"It is well known that ordinary light consists of a spectrum of wavelengths. This is what we see when we look at a rainbow or when light passes through a glass prism. The light hits water molecules in the atmosphere or the prism and is reflected in the light's various wavelengths, which we see as a spectrum of colors,\" says Simonsen.Mie showed how small spheres or nuclei react differently to light.\"For example, small metal particles have a very strong optical response. This characteristic is used in certain types of pregnancy tests that measure the optical response to small gold particles,\" Simonsen says.\"The hormone you look for in the urine\u2014which you only have if you're pregnant\u2014collects on the surface of the gold particles on the test stick and changes the resonance frequency of the particle. The result is a color change to blue, which shows that you're pregnant.\"Rose painting exampleAnother example of how small particles react to light can be seen in stained glass, such as the large rose window in Nidaros Cathedral. The strong red, blue and green colors are all the result of the optical response of the metal particles used in the glass. And it is this property that can be used to detect coronavirus in blood samples.\"What you do is place a network of thin, cylindrical gold particles over a very thin layer of graphene. Graphene is a nanomaterial with a lot of fascinating properties, including the fact that it conducts electricity well and with little loss.\"When blood containing the coronavirus passes over the gold particles, the resonant frequency of the particles changes, which in turn creates an electromagnetic field. This field sets up a current in the sensor that can be easily measured.\"By studying the current curves for certain frequency ranges of the incoming light, we can determine whether the blood contains coronavirus or not,\" says Simonsen.Great potential for nanotechnologyNanosensors have the potential to be very sensitive. The \"smart\" graphene material in the nanodisk acts as an amplifier, explains Amir Maghoul.\"Nanotechnology hasn't been used before for this type of sensor, so this development is new technology. What we've done here is create the first optical framework to detect coronavirus and show how the virus behaves in the optical spectrum,\" says Maghoul.Now the next step is to establish a company that can develop a laboratory prototype for the nanosensor.\"We need to raise money so that we can go ahead and develop a sensor for common use. The collaboration between NTNU and Oslomet has shown that we have facilities with significant potential to develop and produce this type of nanosensor for biomedical use if the work is supported financially,\" says Maghoul. More information:Amir Maghoul et al, An Optical Modeling Framework for Coronavirus Detection Using Graphene-Based Nanosensor, Nanomaterials (2022).  DOI: 10.3390/nano12162868Provided byNorwegian University of Science and TechnologyCitation:Super-quick COVID test uses new technology (2023, January 18)retrieved 30 May 2023from https://phys.org/news/2023-01-super-quick-covid-technology.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "Gustav Mie 2023-01-18 12:00:00 https://phys.org/?utm_content=2023-01-18&utm_medium=website&utm_source=retrieved-article-title-",
     "answer_length_output_llama_7b": 5,
-    "proximity_output_llama_7b": -0.037949416786432266,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.15384615384615385,
     "answer_output_alpaca_lora_7b": "Gustav Mie.",
     "answer_length_output_alpaca_lora_7b": 2,

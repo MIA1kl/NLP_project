@@ -676,7 +676,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.2666666666666667,
     "answer_output_bloomz_7b1": "$100,000",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.07526671886444092,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -1730,7 +1730,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.5714285714285715,
     "answer_output_bloomz_7b1": "NFC",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.005771609488874674,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -1875,15 +1875,15 @@
     "text": "Nineteen percent of respondents to a survey of academics report that they or someone they know have witnessed unidentified aerial phenomena (UAP)\u2014observations of the sky that cannot be identified as aircraft or as known natural phenomena\u2014and 37% report some degree of interest in conducting research into UAP.          The findings, which are based on a survey of 1,460 US academics, are published in Humanities and Social Science Communications and highlight that many academics consider the evaluation of UAP to be worthy of academic scrutiny.Marissa Yingling, Charlton Yingling and Bethany Bell surveyed professors, associate professors, and assistant professors from 144 US universities across 14 academic disciplines in 2022. The survey was sent to 39,984 academics and the response rate was 4%. Participants, who were 62% male and 80% white, were asked about their perceptions of, experiences with and opinions of UAP. Of the 14 different disciplines represented, 10% of participants worked in political science, 10% worked in physics, 10% in psychology and 6% in engineering.Nineteen percent of participants (276) reported that they or someone they knew had witnessed UAP and a further 9% (128) reported that they or someone they knew may have witnessed UAP. Thirty-nine percent of all participants reported that they did not know what the most likely explanations for UAP were, while 21% attributed them to natural events and 13% to devices of unknown intelligence.Although only 4% of participants reported that they had conducted academic research related to UAP, 36% (524) reported some degree of interest in conducting research in this area. 43% said they would be more likely to conduct academic research into UAP if a reputable scholar in their discipline did so and 55% said they would be more likely to conduct research into UAP if they could secure funding.Thirty-seven percent of participants ranked the importance of further research into UAP as very important or absolutely essential, while 64% considered academia's involvement in UAP-related research to be very important or absolutely essential.The findings suggest that many US academics across disciplines consider academia's involvement in research into UAP to be important and may be cautiously willing to engage with research into UAP, particularly if others they consider to be reputable within their field do so. The authors suggest that open discussions of UAP among academics could enable greater academic involvement in UAP-related research.However, they note that further surveys in larger and more diverse cohorts are needed to investigate attitudes towards UAP more generally among academics in the U.S.. More information:Marissa Yingling, Faculty Perceptions of Unidentified Aerial Phenomena, Humanities and Social Science Communications (2023).  DOI: 10.1057/s41599-023-01746-3. dx.doi.org//10.1057/s41599-023-01746-3Provided bySpringerCitation:Unidentified aerial phenomena observations reported by almost one fifth of academic survey respondents (2023, May 22)retrieved 30 May 2023from https://phys.org/news/2023-05-unidentified-aerial-phenomena-academic-survey.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "19% (276) 9% (128)",
     "answer_length_output_llama_7b": 4,
-    "proximity_output_llama_7b": -0.19132041931152344,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.4,
     "answer_output_alpaca_lora_7b": "19% 9%",
     "answer_length_output_alpaca_lora_7b": 2,
-    "proximity_output_alpaca_lora_7b": -0.03619091585278511,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 0.6666666666666666,
     "answer_output_bloomz_7b1": "9%",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.043752238154411316,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -2019,7 +2019,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "Ashley Madison",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.06328064203262329,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -2334,7 +2334,7 @@
     "text": "Changes to how schools are assessed and improved professional learning are critical to the success of education reforms in Wales, a study concludes.          Researchers at Cardiff University interviewed policymakers and those who hold a strategic role in designing and implementing the Health and Well-being aspects of the Curriculum for Wales, which was rolled out in schools from September, as part of a series of projects to measure its long-term success.Published in the British Educational Research Journal, the findings suggest the reforms to the education system require changes at multiple levels to achieve the bold aspirations and goals of the Curriculum for Wales.Dr. Sara Long, a research fellow at the Center for the Development and Evaluation of Complex Interventions for Public Health Improvement (DECIPHer), said, \"Schools are operating in a climate of limited resource, with them having to organize their actions around ensuring performance against measures for which they are held accountable, perhaps to the neglect of measures which actually matter for young people.\"The need for increased school and practitioner-level autonomy and freedom was discussed at length throughout interviews and this will undoubtedly be key to the success of the new curriculum. But with such radical changes to how young people learn, giving those in the education profession the knowledge, skills and tools to implement the curriculum, as well as health and well-being outside of the curriculum, is also going to be vital.\"Interviews for the study included senior members of government and schools with a remit in either design of the curriculum or professional learning, Estyn and those with a multidisciplinary remit in health and education.The curriculum in Wales has experienced major reform with a substantially increased emphasis on Health and Well-being. It is now one of six Areas of Learning and Experience (AoLE) alongside Expressive Arts; Humanities; Languages, Literacy and Communication; Mathematics and Numeracy and Science and Technology. More information:Sara Jayne Long et al, School health and wellbeing and national education system reform: A qualitative study, British Educational Research Journal (2023).  DOI: 10.1002/berj.3861Provided byCardiff UniversityCitation:Study examines education reforms in Wales (2023, May 19)retrieved 30 May 2023from https://phys.org/news/2023-05-reforms-wales.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "Sara Jayne Long  PHOTO:  Sara Long  PHOTO:  Sara Long  PHOTO:  Sara Long  PHOTO:  Sara Long  PHOTO:  Sara Long  PHOTO:  Sara",
     "answer_length_output_llama_7b": 20,
-    "proximity_output_llama_7b": -0.03026927262544632,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.2608695652173913,
     "answer_output_alpaca_lora_7b": "Sara Long.",
     "answer_length_output_alpaca_lora_7b": 2,
@@ -2342,7 +2342,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.8,
     "answer_output_bloomz_7b1": "Sara Long",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.00681787496432662,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.8
   },
   {
@@ -2759,7 +2759,7 @@
     "text": "While previous research has focused primarily on anti-Black racism in predominantly white spaces, a study led by DeMarcus Jenkins, assistant professor of education (educational leadership) in the Penn State College of Education, examined the educational experiences of Black students in a predominantly Latino high school. The students' sense of unbelonging and feeling that their experiences are unimaginable to non-Black people may help to inform ways to address racism in schools, according to Jenkins.          Jenkins' research, published in Equity and Excellence in Education, revealed two major themes: (1) Black students felt a sense of unbelonging, and (2) they perceived their Blackness as unimaginable to non-Black people. \"There's been scholarship that has looked at social/racial relations between Black and brown (Latino) communities,\" added Jenkins. \"I wanted to draw from that body of scholarship to think about how Black students are experiencing their learning environments.\"In his paper, Jenkins cited prior research on race and education that, he wrote, demonstrates that Black bodies are seen as \"undesirable and require exclusion or neglect.\" He also drew on scholarship that shows that educators disproportionately discipline Black students via school suspensions or disciplinary referrals.Jenkins began his study by conducting interviews and focus groups with Black students at a predominantly Latino high school in Arizona. According to the U.S. Census Bureau, Arizona is only 5.4% Black or African American while the Hispanic or Latino category comprises 32.3% of the 7.276 million state population. As the Latino population continues to rise in Arizona and across the country, Jenkins said, an increasing number of Black students will be attending predominantly Latino schools. The focus of his research, he said, is \"how Black students embody anti-Blackness, how does it manifest toward them, and how does that shape how they navigate school?\"To conduct his research, Jenkins observed several English classes and conducted focus groups in which he interviewed students about their experiences. The students' perception of space, he said, was interconnected with feelings of discomfort and unbelonging.More than half of the participants described their feelings in high school as being \"unimaginable.\" During the interviews, students also expressed feelings of anger, anxiety or embarrassment rendered by adults who held authority over particular spaces such as the library and nurse's office. Several students articulated that they often felt like they did not have a place at the school outside of athletic clubs and extracurricular activities.Jenkins' program of research considers the intersections of race, space and policy. In his current study, he pays particular attention to the body as a spatial landscape via visceral geography. Visceral geographies \"regard the body as a useful geographical site of inquiry, interrogating how bodies feel internally\u2014moods, sensations, emotions, physical states of being\u2014in relation to the surrounding material and discursive environment.\"\"As an emerging field of study, Black geographies consider how Blackness is experienced not only socially, politically, and economically but also spatially,\" Jenkins wrote in his paper. \"I explore how Black students experienced anti-Black racism and how they embodied these racial moments.\"To understand how the students embodied racial moments at school, Jenkins used \"Black Critical Theory\"\u2014an educational research approach to understanding the detailed and specific ways Black people live in and experience anti-Black spaces and anti-Black racism in schools.\"Anti-Blackness constructs Black people as inherently problematic and whose existence remains outside of humanity,\" explained Jenkins.As a practical intervention, Jenkins wrote in the paper, educators could consider the school's physical spaces and how they impact Black students' feelings of belonging. When educators can evaluate and mediate the forces that trigger negative visceral responses, said Jenkins, \"then the ability of researchers to examine the conditions necessary to promote more positive schooling experiences for Black youth increases.\"\"Educators can open spaces for students to articulate their feelings and make intentional efforts to transform their classrooms so that all students feel a sense of belongingness,\" he said. More information:DeMarcus A. Jenkins, Feeling Black: Black Urban High School Youth and Visceral Geographies of Anti-Black Racism, Equity & Excellence in Education (2022).  DOI: 10.1080/10665684.2022.2131196Provided byPennsylvania State UniversityCitation:Researcher links Black students' lived experiences with feelings of belonging (2023, May 17)retrieved 30 May 2023from https://phys.org/news/2023-05-links-black-students.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "32.3% 2017-05-17 10:00:00 https://phys.org/news/2023-05-links-black-students.html 2023-05-17 10:",
     "answer_length_output_llama_7b": 6,
-    "proximity_output_llama_7b": -0.01783822849392891,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.16666666666666669,
     "answer_output_alpaca_lora_7b": "32.3%",
     "answer_length_output_alpaca_lora_7b": 1,
@@ -2984,7 +2984,7 @@
     "rouge_score_output_llama_7b": 0.0,
     "answer_output_alpaca_lora_7b": "6%",
     "answer_length_output_alpaca_lora_7b": 1,
-    "proximity_output_alpaca_lora_7b": -0.013013362884521484,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "13%",
     "answer_length_output_bloomz_7b1": 1,
@@ -3311,7 +3311,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "Boomer",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.19666822254657745,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -3328,7 +3328,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.18181818181818182,
     "answer_output_bloomz_7b1": "20%",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.024997767060995102,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -3379,7 +3379,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.6666666666666666,
     "answer_output_bloomz_7b1": "Proud Boys",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.0789017528295517,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -3736,7 +3736,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.06451612903225806,
     "answer_output_bloomz_7b1": "Work/Place",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.01986275240778923,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -3923,7 +3923,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.1,
     "answer_output_bloomz_7b1": "calques",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.08680493384599686,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -3970,7 +3970,7 @@
     "rouge_score_output_llama_7b": 0.07692307692307693,
     "answer_output_alpaca_lora_7b": "The term for when a student submits work as their own is \"contract cheating.\" \u00a9 2023 Phys.org  All rights reserved.  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |",
     "answer_length_output_alpaca_lora_7b": 67,
-    "proximity_output_alpaca_lora_7b": -0.2819766402244568,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "Contract cheating",
     "answer_length_output_bloomz_7b1": 2,
@@ -4110,7 +4110,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "Jail",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.0057937512174248695,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -4399,7 +4399,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.8,
     "answer_output_bloomz_7b1": "Blue Flag",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.0041497852653265,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -4535,7 +4535,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "HECS",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.04748639836907387,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -4684,7 +4684,7 @@
     "rouge_score_output_llama_7b": 0.11538461538461538,
     "answer_output_alpaca_lora_7b": "16%",
     "answer_length_output_alpaca_lora_7b": 1,
-    "proximity_output_alpaca_lora_7b": -0.10487812012434006,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "One in six",
     "answer_length_output_bloomz_7b1": 3,
@@ -4807,7 +4807,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.039999999999999994,
     "answer_output_bloomz_7b1": "16",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.034049808979034424,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -4892,7 +4892,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.05555555555555556,
     "answer_output_bloomz_7b1": "BASS",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.03512758016586304,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -4960,7 +4960,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.12345679012345678,
     "answer_output_bloomz_7b1": "A pilot program",
     "answer_length_output_bloomz_7b1": 3,
-    "proximity_output_bloomz_7b1": -0.06703406572341919,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.11764705882352941
   },
   {
@@ -5317,7 +5317,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.1081081081081081,
     "answer_output_bloomz_7b1": "Bargny 1",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.12016818672418594,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -5334,7 +5334,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.33333333333333337,
     "answer_output_bloomz_7b1": "$50,000",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.0038094455376267433,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -5521,7 +5521,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "Mandy O'Neill",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.06468506157398224,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -5963,7 +5963,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "10%",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.02516469545662403,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -6091,15 +6091,15 @@
     "text": "The UK now has some of the highest levels of neighborhood trust internationally, while Britons have also become much more comfortable with having neighbors who belong to historically marginalized groups, such as gay people, those of a different race, immigrants, and people who have AIDS.          Research by the Policy Institute at King's College London finds the liberalization of social attitudes in Britain is reflected in changing views of who the public say they would not like to have as neighbors, with attitudes softening towards several groups.Of around 20 countries included in the study, the UK now ranks as the most, or among the most, relaxed about living next to a range of people\u2014including those of a different religion and those who speak a different language.However, this increasing tolerance does not extend to all in society: compared with when trends began, the public have in fact become less open to people who are addicted to drugs being their neighbors, while a majority still take issue with heavy drinkers.The analysis was carried out as part of the World Values Survey (WVS), one of the largest and most widely used academic social surveys in the world, in operation since 1981.The groups asked about, as well as the terms used to describe them, therefore reflect the priorities and language of different eras, yet have not been altered given the value of tracking long-term trends in public opinion.The latest UK data was collected in 2022, with data for other nations collected at various points throughout the latest wave of the WVS, which spanned 2017 to 2022.The UK has some of the highest levels of neighborhood trust internationallyOut of 24 countries, the UK (84%) ranks behind only three\u2014Egypt (86%), Sweden (89%) and Norway (90%)\u2014for levels of trust in the people in their neighborhood.Other peer nations fare worse on this measure, such as the US, where 72% say they trust the people in their neighborhood.And unlike the US, where trust fell from 80% in the mid-2000s to 72% in 2017, the British public's trust in their neighbors has risen, from 78% in 2005 to 84% in 2022.Trust also varies geographically within the UK:Northern Ireland (90%) is the UK nation where people are most likely to trust those in their neighborhood, ahead of England (84%), Scotland (81%) and Wales (81%).In England, people in the South West (93%) are the most trusting of their neighbors.Britons have become much more comfortable with some\u2014but not all\u2014historically marginalized groups being their neighborsIn 1990, nearly a third (31%) of Britons said they would not like to have homosexuals as neighbors. By 2022, this had fallen to 4%.Similarly, in 1990, a quarter (23%) of the public said the same about people who have AIDS\u2014a figure that has also now declined to 4%.Looking further back, between 1981 and 2022, the share of the public who cited immigrants/foreign workers decreased from one in eight (13%) to 5%.And over the same period, the proportion who said they would not like to live next to people of a different race dropped from one in 10 (10%) to just 1%.However, attitudes towards two groups have hardened or at least remained very negative:In 2022, 83% of Britons said they would not like to have drug addicts as neighbors\u2014far higher than the 63% who said the same in 1990.The proportion who say they'd rather not live next to heavy drinkers has risen from 48% in 1981 to 57% in 2022\u2014although this is less of a clear upward trend.In both cases, there has been a notable increase in people feeling this way since 2018.The UK public rank as the most, or among the most, accepting of a range of different groupsOf nearly 20 countries, the UK emerges as the most comfortable with the idea of having various groups as neighbors:4% of the UK public say they would not like to live next to people who have AIDS, with only Germany (6%) and Brazil (6%) coming close to such levels of acceptance.Similarly, the UK (4%) ranks as the least likely to take issue with someone who speaks a different language being their neighbor. Other higher-income democracies such as Greece (14%) and Australia (10%) fare worse on this measure.Only 1% of the UK have a problem with unmarried couples or people of a different religion being their neighbors\u2014the lowest among nations analyzed.Of a larger sample of more than 20 countries, the UK is also among the most comfortable with the prospect of neighbors who belong to other groups:The UK (4%) ranks alongside Sweden (3%) and Norway (2%) as the most relaxed about the idea of having neighbors who are gay.People in the UK (2%) are among the least likely to say they'd prefer not to have neighbors of a different race, on a par with those in Brazil (1%), Sweden (1%) and several other western nations.Other high-income democracies, such as Italy (18%), Spain (13%), France (10%) and Australia (9%), are all more likely than the UK (5%) to have a problem with their neighbors being immigrants.But by international standards, the UK ranks as somewhat less tolerant of frequent drug users or drinkers:83% of the UK public say they wouldn't like to live next to drug addicts, with the country less accepting of this group than the likes of Spain (61%), France (57%), Norway (57%), but more accepting than Australia (94%), the US (92%) and others.A majority of 57% in the UK say they would not like to have heavy drinkers as neighbors\u2014lower than in some peer nations, such as Canada (80%), but much higher than others, such as Norway (29%) and France (41%).Perceptions of neighborhood safety and quality of lifeThe research also explores the quality of neighborhood life and finds the UK fares worse than some comparable nations on perceptions of how often illegal or anti-social behavior takes place.For example, people in the UK (28%) are four times as likely as those in Germany (7%) to say that drug sales happen very or quite frequently in their neighborhoods.And the UK is on a par with the US for perceptions of how often robberies (UK 21%; US 21%) and street violence and fights (UK 14%; US 16%) take place.But the UK does fare better on perceptions of sexual harassment, police or military interference with people's private lives, and racist behavior. On the latter, 13% in the UK say this is a frequent occurrence in their neighborhood, compared with 24% in the US.Professor Bobby Duffy, director of the Policy Institute at King's College London, said, \"The UK public are highly trusting of the people in their neighborhood and very comfortable being neighbors with a wide range of groups, compared with many other nations and our own past views.\"\"It seems absurd that as recently as 1990 nearly a third of people in the UK said they'd be uncomfortable with gay neighbors, but this is now down to just 4%, and reflects a wider rapid change of attitudes, shown in increased acceptance of people from different races and immigrants. These shifts have been seen in other countries too, but the UK has often shifted more than many others, putting us now among the most open countries in the study.\"\"This does not apply to neighbors engaged in illegal or anti-social behavior, however, with drug users in particular the least welcome, and the UK more hardline on this than many other countries.\"\"Our high levels of neighborhood trust and tolerance are somewhat at odds with relatively widespread experience of local illegal or anti-social behavior\u2014for example, 28% of us say we've seen drug dealing in our neighborhood, which is on a par with the US and compares with 7% in Germany.\" More information:Report: www.kcl.ac.uk/policy-institute \u2026 ve-thy-neighbour.pdfProvided byKing's College LondonCitation:UK public among most trusting of their neighbors internationally and increasingly comfortable living next to outsiders (2023, April 28)retrieved 30 May 2023from https://phys.org/news/2023-04-uk-neighbors-internationally-comfortable-outsiders.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "4%",
     "answer_length_output_llama_7b": 1,
-    "proximity_output_llama_7b": -0.06930334866046906,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.0,
     "answer_output_alpaca_lora_7b": "4%",
     "answer_length_output_alpaca_lora_7b": 1,
-    "proximity_output_alpaca_lora_7b": -0.06930334866046906,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "4%",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.06930334866046906,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -6337,7 +6337,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.08571428571428572,
     "answer_output_bloomz_7b1": "Blinded",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.015460486523807049,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.5
   },
   {
@@ -6771,7 +6771,7 @@
     "text": "A long-held belief among scholars and observers of Indian elections has been that voters in India do not view health as an important electoral issue.          New research from King's India Institute and partners suggests this assumption is incorrect and health does influence voting decisions, particularly at the state level.A pilot survey of Indian voters conducted by Lokniti, Center for the Study of Developing Societies, revealed health is one of three priority areas for voters. While it is not the determining factor, it ranks alongside education and behind employment. Voters from poor and marginalized backgrounds were also more likely to identify health as a top priority.\"It has long been assumed that low political prioritization of health in India reflects a lack of voter demand. This study demonstrates that when we unpack the idea of 'development,' voters see health as a crucial component of the fortunes of their household and their local area. For older voters and those from more disadvantaged backgrounds, it looms even larger as a priority,\" says Professor Louise Tillin, lead investigator and professor of politics.The researchers found that voters who perceive an improvement in public health services are 10% more likely to vote for the ruling party in state-level elections than voters who perceived no change or worsening health services. However, voting decisions in national-level elections appear to be less impacted by the perceived performance of government hospitals.Many voters were also unclear about which level of government\u2014local, state or national\u2014was responsible for the condition of health care services, despite 80% of voters saying it was the government's responsibility to provide health care.Most (37%) correctly identified state governments as bearing responsibility for running hospitals, but a substantial number attributed responsibility to all three levels (21%), and to the central government (14%) or to the local government (17%).\"The findings suggest that state-level governments do have incentives to invest in health services, given the latent demand from voters and the potential for electoral rewards. However, the unclear attribution of responsibility may blur lines of accountability with voters uncertain about who to credit or blame for health system improvements,\" says Professor Louise Tillin.The survey involved face-to-face interviews with 1,522 citizens across five Indian states\u2014Bihar, Gujarat, Rajasthan, Tamil Nadu and Uttar Pradesh\u2014conducted between March to April 2022. It sought to answer four broad questions: How much do voters care about health? How satisfied are voters with the provision of health services in India? Who do voters credit (or blame) for the provision of health services? And, does health care impact voting decisions?The outcomes of the study have been published on the Lokniti-CSDS website and in The Hindu. Provided byKing's College LondonCitation:New research suggests that health is a larger concern for Indian voters than previously believed (2023, April 26)retrieved 30 May 2023from https://phys.org/news/2023-04-health-larger-indian-voters-previously.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "37% (n=550) 21% (n=320) 14% (n=212) 17% (n=262) 1% (n=18) 1% (n=18) 1%",
     "answer_length_output_llama_7b": 13,
-    "proximity_output_llama_7b": -0.2185993641614914,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.0,
     "answer_output_alpaca_lora_7b": "37%",
     "answer_length_output_alpaca_lora_7b": 1,

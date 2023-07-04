@@ -438,7 +438,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.09090909090909091,
     "answer_output_bloomz_7b1": "Dr. Lauren Welte",
     "answer_length_output_bloomz_7b1": 3,
-    "proximity_output_bloomz_7b1": -0.0068602911196649075,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -1237,7 +1237,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.1875,
     "answer_output_bloomz_7b1": "$490,000",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.032942917197942734,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.5
   },
   {
@@ -1509,7 +1509,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.7499999999999999,
     "answer_output_bloomz_7b1": "Guido J Parra",
     "answer_length_output_bloomz_7b1": 3,
-    "proximity_output_bloomz_7b1": -0.045656632632017136,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.7499999999999999
   },
   {
@@ -1560,7 +1560,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.05797101449275362,
     "answer_output_bloomz_7b1": "Cynanchum L.",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.006792712956666946,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -1747,7 +1747,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.023255813953488372,
     "answer_output_bloomz_7b1": "Weevils",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.06993922591209412,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -1794,11 +1794,11 @@
     "rouge_score_output_llama_7b": 0.05128205128205127,
     "answer_output_alpaca_lora_7b": "25%",
     "answer_length_output_alpaca_lora_7b": 1,
-    "proximity_output_alpaca_lora_7b": -0.20452222228050232,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "25%",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.20452222228050232,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -2155,7 +2155,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "Natalie Feller",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.02021554857492447,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -2308,7 +2308,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.08695652173913045,
     "answer_output_bloomz_7b1": "Moby Dick",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.06594526767730713,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -2712,7 +2712,7 @@
     "rouge_score_output_llama_7b": 0.0,
     "answer_output_alpaca_lora_7b": "Internalin B.",
     "answer_length_output_alpaca_lora_7b": 2,
-    "proximity_output_alpaca_lora_7b": -0.05536915734410286,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "internalin B",
     "answer_length_output_bloomz_7b1": 2,
@@ -2733,7 +2733,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "GSO1",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.07049597054719925,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -3685,7 +3685,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0909090909090909,
     "answer_output_bloomz_7b1": "Bees",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.023736806586384773,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -3898,11 +3898,11 @@
     "text": "James Cook University scientists have found coral reef fish developed faster growth rates in the warm oceans of the past, 50 to 60 million years ago. These small and fast-growing fishes epitomize the productive coral reefs of today.          JCU's Postdoctoral researcher Dr. Alexandre Siqueira co-led a study with Ph.D. candidate Helen Yan, looking at the evolution of growth rates across coral reef fishes. The paper is published in the journal Nature.Going back millions of years, they found that these reef-associated fishes tended to grow faster and to smaller sizes over evolutionary time.\"These abilities first evolved roughly 50 to 60 million years ago, which coincided with a time when the global temperatures on Earth were drastically warmer,\" the authors said.\"These geologically high temperatures seem to have really pushed the boundaries of the smallest fishes on reefs towards a live-fast, die-young lifestyle, with some of the fastest growth rates in the entire animal kingdom.\"For example, the pygmy goby has the shortest lifespan of any vertebrate in the world. It grows to its full adult size in just over one month and lives for less than eight weeks,\" said co-author Professor David Bellwood.These fast-growing fishes are extremely abundant on coral reefs, contributing to the high productivity of these systems.The authors said that this modern dynamic lifestyle arose before the reefs we know today.\"Corals, which only started forming reefs at a later stage, likely provided the necessary cover for many small-bodied, fast-growing fishes,\" the authors said.\"So, the geologically warm temperatures appear to have led to the evolution of faster growth rates, while the subsequent rise of reefs allowed the retention of these faster lifestyles.\"These remarkable findings also raise concerns over current rates of warming from human-induced climate change.\"Our study suggests that warmer waters might lead to smaller, faster-growing fishes. This means that current warming global temperatures may directly impact fish life strategies,\" said the authors. More information:Alexandre C. Siqueira et al, The evolution of fast-growing coral reef fishes, Nature (2023).  DOI: 10.1038/s41586-023-06070-zJournal information:NatureProvided byJames Cook UniversityCitation:Small, fast-growing reef fishes evolved in a warming ocean, finds study (2023, May 19)retrieved 30 May 2023from https://phys.org/news/2023-05-small-fast-growing-reef-fishes-evolved.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "Alexandre C. Siqueira",
     "answer_length_output_llama_7b": 3,
-    "proximity_output_llama_7b": -0.020310891792178154,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.6666666666666666,
     "answer_output_alpaca_lora_7b": "Alexandre C. Siqueira",
     "answer_length_output_alpaca_lora_7b": 3,
-    "proximity_output_alpaca_lora_7b": -0.020310891792178154,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 0.6666666666666666,
     "answer_output_bloomz_7b1": "Alexandre Siqueira",
     "answer_length_output_bloomz_7b1": 2,
@@ -4008,7 +4008,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "Adrian Bejan",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.005017064046114683,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -4025,7 +4025,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.21052631578947367,
     "answer_output_bloomz_7b1": "Amy Iezzoni",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.15668189525604248,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -4208,7 +4208,7 @@
     "rouge_score_output_llama_7b": 0.0,
     "answer_output_alpaca_lora_7b": "Familial Advanced Sleep Phase Syndrome (FASP)",
     "answer_length_output_alpaca_lora_7b": 6,
-    "proximity_output_alpaca_lora_7b": -0.014400968328118324,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 0.9090909090909091,
     "answer_output_bloomz_7b1": "Familial Advanced Sleep Phase Syndrome",
     "answer_length_output_bloomz_7b1": 5,
@@ -4365,7 +4365,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "Pale Male",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.050184715539216995,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -4688,7 +4688,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "nemo",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.12153425812721252,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -4790,7 +4790,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.14285714285714288,
     "answer_output_bloomz_7b1": "ROGUE",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.05863872170448303,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -4867,7 +4867,7 @@
     "text": "Scientists have uncovered a superior method of freezing and thawing frog sperm leading to improved sperm quality. Driven by mass declines of frogs worldwide, research into cryopreservation of amphibian sperm has expanded for the purposes of conservation.       The finding drastically alters scientific understanding of amphibian sperm cryobiology and has significant implications for the application of sperm cryopreservation to the management of genetic diversity within both captive and wild populations of threatened frogs worldwide.Led by University of Newcastle reproductive biologist, Dr. Rose Upton, the study finds using less sucrose\u2014or sugar\u2014in the freezing process facilitates much higher cell recovery resulting in more intact membranes and sperm motility to produce better swimmers. The research has been published in the journal Reproduction.Sperm was tested from six frog species, and in all cases the new preferred thawing method was found to be superior to the traditional cryopreservation method. More information:Rose Upton et al, Paradigm shift in frog sperm cryopreservation: reduced role for non-penetrating cryoprotectants, Reproduction (2023). DOI: 10.1530/REP-22-0486Provided byNewcastle UniversityCitation:New method to thaw frozen frog sperm produces better swimmers (2023, May 17)retrieved 30 May 2023from https://phys.org/news/2023-05-method-frozen-frog-sperm-swimmers.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "Dr. Rose Upton",
     "answer_length_output_llama_7b": 3,
-    "proximity_output_llama_7b": -0.009558641351759434,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 1.0,
     "answer_output_alpaca_lora_7b": "Rose Upton.",
     "answer_length_output_alpaca_lora_7b": 2,
@@ -4875,7 +4875,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.8,
     "answer_output_bloomz_7b1": "Dr. Rose Upton",
     "answer_length_output_bloomz_7b1": 3,
-    "proximity_output_bloomz_7b1": -0.009558641351759434,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -4884,7 +4884,7 @@
     "text": "California condors will receive a vaccine for a deadly strain of avian influenza that threatens to wipe out the already critically endangered vulture species, federal officials said Tuesday.          The U.S. Department of Agriculture's Animal and Plant Health Inspection Service granted emergency approval for use of the vaccine after more than a dozen condors recently died from the bird flu, known as H5N1.There are fewer than 350 California condors in the wild, in flocks that span from the Pacific Northwest to Baja California, Mexico.A pilot safety study will begin this month in North American vultures, a similar species, allowing investigators to check for any adverse effects before they give vaccines to the endangered condors, according to an agriculture department statement.The department approved the emergency vaccination \"because these birds are critically endangered, closely monitored, and their population is very small which allows close monitoring of the vaccine,\" the statement said.Over the past year and a half, millions of birds across the U.S. have died from avian flu, including more than 430 bald eagles and some 58 million turkeys and commercial chickens that were euthanized to prevent the spread of the disease.                    A California Condor takes to flight at the Los Angeles Zoo on Tuesday, May 2, 2023. California condors will receive a vaccine for a deadly strain of avian influenza that threatens to wipe out the already threatened vulture species, federal officials said Tuesday May 16, 2023. The U.S. Department of Agriculture's Animal and Plant Health Inspection Service granted emergency approval to the vaccine after more than a dozen condors recently died from the bird flu, known as H5N1. Credit: AP Photo/Richard Vogel,File                                     Condor chick LA1123, hatched Sunday April, 30, 2023, waits for it's feeding in a temperature controlled enclosure at the Los Angeles Zoo on Tuesday, May 2, 2023. California condors will receive a vaccine for a deadly strain of avian influenza that threatens to wipe out the already threatened vulture species, federal officials said Tuesday May 16, 2023. The U.S. Department of Agriculture's Animal and Plant Health Inspection Service granted emergency approval to the vaccine after more than a dozen condors recently died from the bird flu, known as H5N1. Credit: AP Photo/Richard Vogel,File                                     A California Condor stands on a wooden stump at the Los Angeles Zoo on Tuesday, May 2, 2023. California condors will receive a vaccine for a deadly strain of avian influenza that threatens to wipe out the already threatened vulture species, federal officials said Tuesday May 16, 2023. The U.S. Department of Agriculture's Animal and Plant Health Inspection Service granted emergency approval to the vaccine after more than a dozen condors recently died from the bird flu, known as H5N1. Credit: AP Photo/Richard Vogel                                     A California Condor named Hope is seen at the Condor habitat at the Los Angeles Zoo on Tuesday, May 2, 2023. California condors will receive a vaccine for a deadly strain of avian influenza that threatens to wipe out the already threatened vulture species, federal officials said Tuesday May 16, 2023. The U.S. Department of Agriculture's Animal and Plant Health Inspection Service granted emergency approval to the vaccine after more than a dozen condors recently died from the bird flu, known as H5N1. Credit: AP Photo/Richard Vogel                                     Debbie Sears, condor keeper feeds on Tuesday, May 2, 2023 Condor chick LA1123, at the Los Angeles Zoo facility that hatched Sunday April 30, 2023. California condors will receive a vaccine for a deadly strain of avian influenza that threatens to wipe out the already threatened vulture species, federal officials said Tuesday May 16, 2023. The U.S. Department of Agriculture's Animal and Plant Health Inspection Service granted emergency approval to the vaccine after more than a dozen condors recently died from the bird flu, known as H5N1. Credit: AP Photo/Richard Vogel,File                 California's population of iconic condors, with their 10-foot (3-meter) wingspans, was nearly wiped out by hunting during the California Gold Rush, as well as by poisoning from toxic pesticide DDT and ingesting lead ammunition.In the 1980s, all 22 California condors left in the wild were put into captive breeding programs to save the species. Zoo-bred birds were first released into the wild in 1992 and in the years since have been reintroduced into wild habitats.    \u00a9 2023 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed without permission. Citation:Vaccine authorized for emergency use in California condors amid bird flu outbreak (2023, May 17)retrieved 30 May 2023from https://phys.org/news/2023-05-vaccine-authorized-emergency-california-condors.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "13",
     "answer_length_output_llama_7b": 1,
-    "proximity_output_llama_7b": -0.02107304334640503,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.0,
     "answer_output_alpaca_lora_7b": "11. \u00a9 2023 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed without permission. Citation:Vaccine authorized for emergency use in California condors amid bird flu outbreak (2023, May 17)retrieved 30 May 2023from https://phys.org/news/2023-05-vaccine-authorized-emergency-california-condors.html  This document is subject to copyright. Apart from",
     "answer_length_output_alpaca_lora_7b": 48,
@@ -5028,7 +5028,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "Joro",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.08969549089670181,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -5351,7 +5351,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.03389830508474576,
     "answer_output_bloomz_7b1": "Yulia",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.07532907277345657,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -5606,7 +5606,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "Sandra Rehan",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.05787169188261032,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -5640,7 +5640,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.025641025641025647,
     "answer_output_bloomz_7b1": "Barley",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.10076582431793213,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -5819,7 +5819,7 @@
     "text": "On the beach. In the ocean. Traveling along riverways. In muggy Florida and chilly Ireland. Even floating through the air.          We cough, spit, shed and flush our DNA into all of these places and countless more. Signs of human life can be found nearly everywhere, short of isolated islands and remote mountaintops, according to a new University of Florida study.That ubiquity is both a scientific boon and an ethical dilemma, say the UF researchers who sequenced this widespread DNA. The DNA was of such high quality that the scientists could identify mutations associated with disease and determine the genetic ancestry of nearby populations. They could even match genetic information to individual participants who had volunteered to have their errant DNA recovered.David Duffy, the UF professor of wildlife disease genomics who led the project, says that ethically handled environmental DNA samples could benefit fields from medicine and environmental science to archaeology and criminal forensics. For example, researchers could track cancer mutations from wastewater or spot undiscovered archaeological sites by checking for hidden human DNA. Or detectives could identify suspects from the DNA floating in the air of a crime scene.                Jessica Farrell and Sean Goggin collecting water samples at Moultrie Creek, St. Augustine Florida. Credit: Todd Osbourne             But this level of personal information must be handled extremely carefully. Now, scientists and regulators must grapple with the ethical dilemmas inherent in accidentally\u2014or intentionally\u2014sweeping up human genetic information, not from blood samples but from a scoop of sand, a vial of water or a person's breath.Published May 15 in Nature Ecology and Evolution, the paper by Duffy's group outlines the relative ease of collecting human DNA nearly everywhere they looked.\"We've been consistently surprised throughout this project at how much human DNA we find and the quality of that DNA,\" Duffy said. \"In most cases the quality is almost equivalent to if you took a sample from a person.\"      Because of the ability to potentially identify individuals, the researchers say that ethical guardrails are necessary for this kind of research. The study was conducted with approval from the institutional review board of UF, which ensures that ethical guidelines are adhered to during research studies.                Fiona Duffy and Daivd Duffy filtering water samples, Wicklow Ireland. DNA was found everywhere they sampled a river except the remote mountain top where the river starts. Credit: Jenny Whilde             \"It's standard in science to make these sequences publicly available. But that also means if you don't screen out human information, anyone can come along and harvest this information,\" Duffy said. \"That raises issues around consent. Do you need to get consent to take those samples? Or institute some controls to remove human information?\"Duffy's team at UF's Whitney Laboratory for Marine Bioscience and Sea Turtle Hospital has successfully used environmental DNA, or eDNA, to study endangered sea turtles and the viral cancers they are susceptible to. They've plucked useful DNA out of turtle tracks in the sand, greatly accelerating their research program.The scientists knew that human eDNA would end up in their turtle samples and probably many other places they looked. With modern genetic sequencing technology, it's now straightforward to sequence the DNA of every organism in an environmental sample. The questions were how much human DNA there would be and whether it was intact enough to harbor useful information.The team found quality human DNA in the ocean and rivers surrounding the Whitney Lab, both near town and far from human settlement, as well as in sand from isolated beaches. In a test facilitated by the National Park Service, the researchers traveled to part of a remote island never visited by people. It was free of human DNA, as expected. But they were able to retrieve DNA from voluntary participants' footprints in the sand and could sequence parts of their genomes, with permission from the anonymous participants.Duffy also tested the technique in his native Ireland. Tracing along a river that winds through town on its way to the ocean, Duffy found human DNA everywhere but the remote mountain stream where the river starts, far from civilization.The scientists also collected room air samples from a veterinary hospital. They recovered DNA matching the staff, the animal patient and common animal viruses.Now that it's clear human eDNA can be readily sampled, Duffy says it's time for policymakers and scientific communities to take issues around consent and privacy seriously and balance them against the possible benefits of studying this errant DNA.\"Any time we make a technological advance, there are beneficial things that the technology can be used for and concerning things that the technology can be used for. It's no different here,\" Duffy said. \"These are issues we are trying to raise early so policy makers and society have time to develop regulations.\" More information:David Duffy, Inadvertent human genomic bycatch and intentional capture raise beneficial applications and ethical concerns with environmental DNA, Nature Ecology & Evolution (2023).  DOI: 10.1038/s41559-023-02056-2. www.nature.com/articles/s41559-023-02056-2Journal information:Nature Ecology & EvolutionProvided byUniversity of FloridaCitation:Human DNA is everywhere. That's a boon for science, and an ethical quagmire (2023, May 15)retrieved 30 May 2023from https://phys.org/news/2023-05-human-dna-boon-science-ethical.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "David Duffy David Duffy",
     "answer_length_output_llama_7b": 4,
-    "proximity_output_llama_7b": -0.04195120558142662,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.6666666666666666,
     "answer_output_alpaca_lora_7b": "David Duffy.",
     "answer_length_output_alpaca_lora_7b": 2,
@@ -5827,7 +5827,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "David Duffy",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.041951198130846024,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -6129,7 +6129,7 @@
     "rouge_score_output_llama_7b": 0.07999999999999999,
     "answer_output_alpaca_lora_7b": "Huanglongbing (HLB)",
     "answer_length_output_alpaca_lora_7b": 2,
-    "proximity_output_alpaca_lora_7b": -0.15976950526237488,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 0.6666666666666666,
     "answer_output_bloomz_7b1": "Huanglongbing",
     "answer_length_output_bloomz_7b1": 1,
@@ -6184,7 +6184,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "Keith Dane",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.10216318070888519,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -6380,7 +6380,7 @@
     "text": "People who follow the Mediterranean diet\u2014rich in fats from olive oil and nuts\u2014tend to live longer, healthier lives than others who chow down primarily on fast food, meat and dairy. But it hasn't been clear on a cellular level exactly why the diet is so beneficial.          Now researchers led by the Stanford School of Medicine have found one of the first cellular connections between healthy fats\u2014known as monounsaturated fatty acids\u2014and lifespan in laboratory worms. The finding hints at a complex relationship between diet, fats and longevity.\"Fats are generally thought to be detrimental to health,\" said professor of genetics Anne Brunet, Ph.D. \"But some studies have shown that specific types of fats, or lipids, can be beneficial.\"The researchers learned that one of the fats in the Mediterranean diet, oleic acid, increases the number of two key cellular structures, or organelles, and protects cellular membranes from damage by a chemical reaction called oxidation. This protective effect has a big payoff: Worms fed food rich in oleic acid lived about 35% longer than those consigned to standard worm rations, the researchers found.Surprisingly, one of the organelles, known as lipid droplets, served as a de facto crystal ball, predicting with increasing accuracy the number of days each animal would live.\"The number of lipid droplets in individual worms tells me that animal's remaining lifespan,\" said research scientist Katharina Papsdorf, Ph.D. \"The worms with greater numbers of lipid droplets live longer than those with fewer droplets.\"Brunet, who is the school's Michele and Timothy Barakett Professor of Genetics, is the senior author of the study, which was published May 1 in Nature Cell Biology. Papsdorf is the lead author of the research.\"For years, we've been very interested in learning how diet influences lifespan,\" Brunet said. \"It will be fascinating to see whether we see a similar association between lipid droplets and longevity in mammals and humans. These findings suggest there may be a fat-based strategy to improve human health and longevity.\"A fat by (many) other namesAnyone who has struggled to remember the difference between \"good cholesterol\" and \"bad cholesterol\" and how to cultivate one over the other will know that the language of fats can be confusing. In general, most monounsaturated fats, which are found in plant-based foods like avocados, olive oil and nuts, are considered relatively healthy. Saturated fats and trans fats\u2014those that are solid at room temperature\u2014can increase the risk of heart disease and other health complications. Fats and oils are made up of fatty acids; lipids include fats, oils, fatty acids and cholesterol.Papsdorf and her colleagues used a tiny roundworm called C. elegans in their studies of longevity. The worms, which are about 1 millimeter long, normally live about 18 to 20 days. In the wild, they live in soil and feed on bacteria found on decaying plant matter. In the laboratory, they cruise in lazy arcs across the surface of specially prepared laboratory dishes peppered with bacteria. C. elegans reproduce quickly, are inexpensive and easy to keep, and their genomes and neural networks have been completely mapped, making them a good model for studying aging and disease.\"The worms allowed us to track molecular changes that occur with changes in diet, and to determine which of these changes affect lifespan,\" Papsdorf said.Papsdorf and her colleagues compared the effect of feeding the worms bacteria grown on laboratory dishes supplemented with oleic acid versus a structurally similar compound called elaidic acid. Elaidic acid is a monounsaturated trans fatty acid (trans fats = bad!) found in margarine and dairy products and is known to be unhealthy in humans. It is missing a kink in its molecule structure that is present in oleic acid.\"We saw that the numbers of lipid droplets in the worms' intestinal cells increased if the worms were exposed to oleic acid, and that this correlated with an extension of lifespan,\" Brunet said. \"In contrast, exposure to elaidic acid didn't increase the number of lipid droplets and had no effect on longevity.\"Lipid droplets are reservoirs in which cells store fats. They play a central role in cellular metabolism\u2014regulating when, where and whether the fats are used as energy for the cell. The accumulation of the droplets was critical to oleic acid's effect; blocking genes for droplet-making proteins reduced the animals' lifespans to normal.In addition to tracking the numbers of lipid droplets, the researchers noted an increase in the number of peroxisomes in the intestinal tissue of worms exposed to oleic acid. Peroxisomes contain enzymes involved in metabolism and oxidation.The numbers of lipid droplets and peroxisomes are higher in younger animals and naturally decrease with age, suggesting that they are co-regulated in some manner. They can also vary among individuals. Papsdorf found that among young worms fed a normal diet, those with greater numbers of lipid droplets lived a slightly, but statistically significant, longer duration than genetically identical animals of the same age with fewer droplets. The effect was more pronounced among older animals; middle-aged worms with more lipid droplets lived an average of 33% longer than their genetically identical peers.\"Interestingly, calorie restriction has also been associated with longevity in animals and humans,\" Brunet said. \"But studies have shown that, among calorie-restricted mice, it is often the fattest individuals that live the longest. This suggests fat has a dual aspect. Some aspects are very negative, but other aspects can be positive.\"      Avoiding 'lipid oxidation'Finally, the researchers showed that oleic acid supplementation reduced a chemical reaction called lipid oxidation, which damages cellular membranes. In contrast, elaidic acid increased lipid oxidation. \"Membrane oxidation is very bad news for an organism,\" Brunet said. \"Cell membranes can begin to leak and fail, which can cause a cascade of adverse biological effects.\"The researchers' findings are the first to suggest that lipid droplets and peroxisomes are co-regulated through a biological pathway responsive to the presence of beneficial monounsaturated fatty acids, and that aging might be staved off by protecting cellular membranes from oxidation.\"There is still a lot of research to be done to learn whether and how these findings apply to humans,\" Brunet said. \"Often when one sees lipid droplets in mammalian tissue it is an indication of obesity and other health problems. But it's possible that droplets of a certain size, or shape, or in a specific tissue have varying health impacts. We need to understand what distinguishes them in the context of disease and longevity.\" More information:Katharina Papsdorf et al, Lipid droplets and peroxisomes are co-regulated to drive lifespan extension in response to mono-unsaturated fatty acids, Nature Cell Biology (2023).  DOI: 10.1038/s41556-023-01136-6Journal information:Nature Cell BiologyProvided byStanford UniversityCitation:Mediterranean diet's cellular effects revealed (2023, May 12)retrieved 30 May 2023from https://phys.org/news/2023-05-mediterranean-diet-cellular-effects-revealed.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "C. elegans",
     "answer_length_output_llama_7b": 2,
-    "proximity_output_llama_7b": -0.0010110195726156235,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 1.0,
     "answer_output_alpaca_lora_7b": "The worm used in the study was C. elegans.",
     "answer_length_output_alpaca_lora_7b": 9,
@@ -6388,7 +6388,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.3636363636363636,
     "answer_output_bloomz_7b1": "C. elegans",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.0010110195726156235,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -6558,7 +6558,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.11764705882352941,
     "answer_output_bloomz_7b1": "Hay",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.0773288756608963,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {

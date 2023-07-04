@@ -149,7 +149,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.044444444444444446,
     "answer_output_bloomz_7b1": "2.5 m",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.06269276142120361,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -319,7 +319,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.044444444444444446,
     "answer_output_bloomz_7b1": "2.5 m",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.06269276142120361,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -421,7 +421,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.16666666666666669,
     "answer_output_bloomz_7b1": "Irina Kovalenko",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.030992822721600533,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -434,11 +434,11 @@
     "rouge_score_output_llama_7b": 0.0,
     "answer_output_alpaca_lora_7b": "JANUS",
     "answer_length_output_alpaca_lora_7b": 1,
-    "proximity_output_alpaca_lora_7b": -0.08785122632980347,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "JANUS",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.08785122632980347,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -574,7 +574,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "Manfred Cuntz",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.03851484879851341,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -591,7 +591,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "Chang'e 1",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.14693060517311096,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.8
   },
   {
@@ -1067,7 +1067,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "Daniela de Paulis",
     "answer_length_output_bloomz_7b1": 3,
-    "proximity_output_bloomz_7b1": -0.012866305187344551,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -1084,7 +1084,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "Zhurong",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.011621755547821522,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -1509,7 +1509,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "Fan Yizhong",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.002983673242852092,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.8
   },
   {
@@ -1552,7 +1552,7 @@
     "text": "Dark matter, matter in the universe that does not emit, absorb or reflect light, cannot be directly detected using conventional telescopes or other imaging technologies. Astrophysicists have thus been trying to identify alternative methods to detect dark matter for decades.          Researchers at Tsinghua University, the Purple Mountain Observatory and Peking University recently carried out a study exploring the possibility of directly detecting dark photons, prominent dark matter candidates, using radio telescopes. Their paper, published in Physical Review Letters, could inform future searches for dark photons, which are hypothetical particles that would carry a force in dark matter, similarly to how photons carry electromagnetism in normal matter.\"Our previous work studied the conversion of dark photons into photons in the solar corona,\" Haipeng An, one of the researchers who carried out the study, told Phys.org.\"This process involves the excitation of free electrons by dark photon fields, leading to the emission of normal photons. Building on this work, Jia and I considered using the free electrons in a dished telescope to induce electromagnetic signals and then using the FAST telescope to search for search such a signal.\"Soon after, they started exploring the use of dished telescopes to search for dark photon-related electromagnetic signals, An and his colleagues realized that due to the non-relativistic nature of dark matter, the reflector in such telescopes would need to be spherical and the receiver of the signal should be placed at the center of this sphere.Existing dished radio telescopes, however, such as the five-hundred-meter aperture spherical radio telescope (FAST) in China, are designed to observed remote radio signals, thus the shape of their dish is parabolic, with the receiver placed at the point of focus.This meant that electromagnetic signals induced by dark photons would not concentrate at their receiver.\"After this realization, we temporarily gave up on this idea,\" An explained. \"In the summer of 2021, I was invited to give lectures about dark matter at the UFITS summer school for cosmology held at the FAST site, where I studied the details of how the FAST telescope works. I learned that the receiver suspended above the dish could move around such that the telescope could observe radio waves from different directions. I then came up with the idea that although the dark photon dark matter-induced EM waves are not focused on the receiver, the EM field can form a distribution on top of the dish, and this distribution can be accurately calculated theoretically.\"      According to An's subsequent theoretical predictions, the movable receiver in radio telescopes should be able to collect electromagnetic signals in different locations. The signals collected by the receiver could then be compared to distributions predicted by theory, which would help to improve the sensitivity of the telescopes to dark photon-induced signals.\"With our colleagues, we then started to calculate this signal,\" An said. \"To our surprise, we found that even without considering the distribution, with the extraordinary sensitivity, even with the fact that the dark photon dark matter induced signal is not focused at the receiver, the sensitivity of the FAST telescope has already surpassed the CMB constraint, which means that the FAST telescope can discover the dark matter if the dark matter is composed by dark photon and is in the right mass region.\"To further assess the viability of their proposed method to search for dark photons, An and his colleagues also analyzed observation data collected by the FAST radio telescope, which is located in a village in the mountains in the Guizhou region in China. This data was provided by Prof. Xiaoyuan Huang, who is also a co-author of the recent paper.\"We analyzed the data and placed the most stringent bound on the model in the 1\u20131.5 GHz frequency range,\" An said. \"We realized that dark photon dark matter could induce electric signals on dipole antennas and that due to the non-relativistic nature, we could use interferometry technology to improve the sensitivity, Therefore, we calculate the potential sensitivity of the LOFAR telescope and the future SKA telescope and find they both have the potential to discover dark photon dark matter. \"Overall, the analyses conducted by this team of researchers suggest that radio telescopes could potentially enable the direct detection of dark photons. Their work could thus broaden horizons in the ongoing search for dark photons, particularly ultra-light dark photons.\"In the early 1960s, while conducting research in radio astronomy, Penzias and Wilson stumbled upon an unexpected low-level background noise,\" An said. \"This noise was later confirmed to be the cosmic microwave background radiation, providing important evidence for the hot early expansion of the universe. Ultra-light dark photons exhibit photon-like electromagnetic interactions through kinetic mixing with photons. As a candidate for diffuse dark matter in the universe, ultra-light dark photons can display behavior similar to that of cosmic microwave background radiation. By carefully listening with modern radio telescopes, elusive whispers from the dark world may be heard.\"Ultralight dark photons can behave similarly to dark electromagnetic fields with specific frequencies, and this research team showed that it could potentially be detected using radio telescopes, instruments that are commonly used to observe cosmic microwave background. In the future, their theoretical considerations could inform searches for dark photon dark matter that rely on large-scale radio telescope observations.\"Our work may open a new sub-area in radio astronomy,\" An added. \"We now plan to search for dark photon dark matter signals in the data from LOFAR and MeerKAT telescopes. We also plan to apply this idea to search for axion dark matter, another competitive ultralight dark matter candidate.\" More information:Haipeng An et al, Direct Detection of Dark Photon Dark Matter Using Radio Telescopes, Physical Review Letters (2023).  DOI: 10.1103/PhysRevLett.130.181001Journal information:Physical Review Letters  \u00a9 2023 Science X Network Citation:Could dark photon dark matter be directly detected using radio telescopes? (2023, May 18)retrieved 30 May 2023from https://phys.org/news/2023-05-dark-photon-radio-telescopes.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "FAST",
     "answer_length_output_llama_7b": 1,
-    "proximity_output_llama_7b": -0.011211066506803036,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 1.0,
     "answer_output_alpaca_lora_7b": "The name of the spherical radio telescope in China is the Five-hundred-meter Aperture Spherical Telescope (FAST).",
     "answer_length_output_alpaca_lora_7b": 16,
@@ -1560,7 +1560,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.10526315789473684,
     "answer_output_bloomz_7b1": "FAST",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.011211066506803036,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -1637,7 +1637,7 @@
     "text": "Anyone can become an asteroid hunter thanks to a new program launched by astronomers at the University of Arizona Lunar and Planetary Laboratory. As part of the Catalina Sky Survey, the scientists created an online portal that opens their mission\u2014the discovery and identification of space rocks that regularly visit Earth's neighborhood\u2014to the general public.          While gazing up at the night sky with the naked eye, one might see stars, planets and the occasional airplane. What one usually won't see, however, are asteroids and comets\u2014lumps of rock tumbling through space\u2014left over from the formation of our solar system about 4.6 billion years ago. Because of their origin, these space objects might hold clues about the formation of the sun and planets, scientists believe.Through the new portal, scientists from the Catalina Sky Survey will share potential asteroid and comet detections from their ground-based telescopes with anyone with an internet connection. Even amateurs can help scientists find unknown objects in the solar system as they click through and pore over high-resolution, telescope snapshots of the sky that scientists haven't been able to look at.\"I thought it would be great if people could do what we do every night,\" said Carson Fuls, a science engineering specialist for the Catalina Sky Survey who heads the project. \"We see this website as throwing open the doors: Do you want to look for asteroids, too? If so, come on in.\"To begin asteroid hunting, participants must create an account on Zooniverse, an online platform for people-powered research. Through the website, volunteers without any specialized training or expertise assist professional researchers from various fields. In the case of the public asteroid detection portal, a basic tutorial will have participants picking out moving asteroids from pictures in no time.Participants look at sets of images of the night sky taken by one of the Catalina Sky Survey telescopes. Each image set contains four exposures taken six or seven minutes apart. The pictures are noteworthy because software spotted a moving speck of light from one image to the next, which may or may not represent the light reflected from a faraway comet or asteroid.The task for the amateur asteroid hunter: Decide if the identified speck of light in the images looks like a genuine celestial body or, rather, is a false detection resulting from inconveniently timed \"twinkles\" of the star-studded background, dust on the telescope mirror or other causes. After answering by clicking a \"yes\" or \"no\" button, the participant can either write a comment or move on to the next detection.      It is not necessary that people know the correct answer every time, said Catalina Sky Survey director Eric Christensen. Rather, the system relies on strength in numbers.\"With enough people participating, you can establish a general consensus, so there's less margin of error,\" Christensen said.The Catalina Sky Survey operates up to five large, powerful telescopes each night in their quest to keep track of over 1 million lumps of flying rock with diameters ranging from the length of a school bus to the width of Arizona. Initially, the images in the portal will come from their G96 telescope atop Mount Lemmon, just north of Tucson. The diameter of the telescope's primary mirror is approximately 5 feet, and it can usually survey the whole Northern Hemisphere night sky in about a month.\"The number of asteroids we detect per night with our telescope really depends on the weather or where we are in the lunar calendar,\" Christensen said. \"On clear nights, the database matches tens of thousands of candidates to known asteroids based on their motion, speed and position in the sky.\"While the lab's software detects and records all asteroid sightings, Catalina Sky Survey is a NASA-funded project with the mission of specifically tracking and discovering near-Earth objects, or NEOs. NEOs are asteroids that have strayed from the flock of space rocks plodding around the sun in the asteroid belt between Mars and Jupiter. Their new orbits take them much closer to Earth, and some pose a potential threat if their orbit crosses that of Earth.                Graph showing the amount of near-Earth asteroids discovered over time. Most notably, the current total of almost 32,000 asteroids is at least triple the amount that had been detected ten years ago. Catalina Sky Survey alone has discovered over 14,400 near-Earth asteroids, including 1,200 in the past year. Credit: Alan Chamberlin/JPL-Caltech             More than 14,400 NEOs in the past 30 years\u2014almost half of the entire known population of nearly 32,000\u2014have been discovered by the Catalina Sky Survey. Of those, 1,200 were found just in the past year.\"We are most interested in candidates that are moving fast with an unknown identity because they are most likely to be NEOs,\" Fuls said. \"Because NEOs are closer to us, they appear to move faster and in somewhat random directions from our viewpoint compared to main belt asteroids.\"The process of spotting a new NEO and reporting it is time sensitive, and astronomers can lose track of them if there is no immediate follow-up on their discovery. That's because NEOs have highly elliptical orbits that only bring them close to Earth every three or four years. Plus, some smaller NEOs can only be detected if they are passing near Earth.\"NEOs move so erratically that it's easy to miss them,\" Christensen said. \"We try not to filter out false detections too aggressively because this could also filter out some NEOs.\"Currently, the asteroid-tracking telescope on Mount Lemmon is set up to take about 1,000 images per night. Afterwards, sensitive software ranks detected moving objects from most to least likely to be an asteroid. The final step is for a human observer to analyze the detections that the software identified.\"A human can only process so many images a night,\" said Fuls, explaining that while the software flags many possible objects, the researchers don't have the time and resources to look through everything that was picked up. \"We are missing a certain number of objects because they simply didn't rank high enough in the algorithm.\"That is where a Zooniverse account comes in handy, as \"citizen scientists\" peek through sky photos that the software flagged but weren't obvious enough to make the cut. For each set of images, a participant must decide: Did the software pick up on a never-before seen space object or did it just get confused by the flickering stars?Already, three citizen scientists have discovered 64 possible candidates for unknown asteroids during the testing phase of the web portal.\"We've sent these detections off to the Minor Planet Center as potential new discoveries, and most of these objects have not yet been linked to any object that has been detected before,\" Fuls said. \"We anticipate that there will be many more discoveries like that going forward.\"The Catalina Sky Survey astronomers plan to release new data into the interface every day after their scheduled nighttime viewing session.\"The observations made by these citizen scientists may not always be of a never-before-detected object,\" Christensen said. \"But they may still be key observations that allow the Minor Planet Center to nail down the identity of something that, until now, was just a candidate.\"To keep prospective asteroid hunters on their toes, Fuls said, he and his colleagues will throw pictures of already known objects into the mix to test people's ability to identify real objects and keep them engaged.\"Even when you're at the telescope, you perk up when you see one of those,\" Fuls said. \"You don't want it to be mindless and boring.\" Provided byUniversity of ArizonaCitation:Astronomers want your help hunting for asteroids (2023, May 17)retrieved 30 May 2023from https://phys.org/news/2023-05-astronomers-asteroids.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "5 feet",
     "answer_length_output_llama_7b": 2,
-    "proximity_output_llama_7b": -0.159039705991745,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 1.0,
     "answer_output_alpaca_lora_7b": "5 feet.",
     "answer_length_output_alpaca_lora_7b": 2,
@@ -1645,7 +1645,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "5 feet",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.159039705991745,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -1662,7 +1662,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.6,
     "answer_output_bloomz_7b1": "LP 791-18d",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.0037784073501825333,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -1798,7 +1798,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.1923076923076923,
     "answer_output_bloomz_7b1": "10 hours and 33 minutes",
     "answer_length_output_bloomz_7b1": 5,
-    "proximity_output_bloomz_7b1": -0.014822134748101234,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -1926,11 +1926,11 @@
     "text": "NASA's Juno spacecraft will fly past Jupiter's volcanic moon Io on Tuesday, May 16, and then the gas giant itself soon after. The flyby of the Jovian moon will be the closest to date, at an altitude of about 22,060 miles (35,500 kilometers). Now in the third year of its extended mission to investigate the interior of Jupiter, the solar-powered spacecraft will also explore the ring system where some of the gas giant's inner moons reside.          To date, Juno has performed 50 flybys of Jupiter and also collected data during close encounters with three of the four Galilean moons\u2014the icy worlds Europa and Ganymede, and fiery Io.\"Io is the most volcanic celestial body that we know of in our solar system,\" said Scott Bolton, Juno principal investigator from the Southwest Research Institute in San Antonio. \"By observing it over time on multiple passes, we can watch how the volcanoes vary\u2014how often they erupt, how bright and hot they are, whether they are linked to a group or solo, and if the shape of the lava flow changes.\"Slightly larger than Earth's moon, Io is a world in constant torment. Not only is the biggest planet in the solar system forever pulling at it gravitationally, but so are its Galilean siblings\u2014Europa and the biggest moon in the solar system, Ganymede. The result is that Io is continuously stretched and squeezed, actions linked to the creation of the lava seen erupting from its many volcanoes.While Juno was designed to study Jupiter, its many sensors have additionally provided a wealth of data on the planet's moons. Along with its visible light imager JunoCam, the spacecraft's JIRAM (Jovian InfraRed Auroral Mapper), SRU (Stellar Reference Unit), and MWR (Microwave Radiometer) will be studying Io's volcanoes and how volcanic eruptions interact with Jupiter's powerful magnetosphere and auroras.                These infrared views of volcanic activity of Jupiter\u2019s moon Io were collected by the JIRAM (Jovian Infrared Auroral Mapper) instrument aboard NASA\u2019s Juno spacecraft during a flyby of the moon on Oct. 16, 2021. Credit: NASA/JPL-Caltech/SwRI/ASI/INAF/JIRAM             \"We are entering into another amazing part of Juno's mission as we get closer and closer to Io with successive orbits. This 51st orbit will provide our closest look yet at this tortured moon,\" said Bolton. \"Our upcoming flybys in July and October will bring us even closer, leading up to our twin flyby encounters with Io in December of this year and February of next year, when we fly within 1,500 kilometers of its surface. All of these flybys are providing spectacular views of the volcanic activity of this amazing moon. The data should be amazing.\"      A 'half-century' at JupiterDuring its flybys of Jupiter, Juno has zoomed low over the planet's cloud tops\u2014as close as about 2,100 miles (3,400 kilometers). Approaching the planet from over the north pole and exiting over the south during these flybys, the spacecraft uses its instruments to probe beneath the obscuring cloud cover, studying Jupiter's interior and auroras to learn more about the planet's origins, structure, atmosphere, and magnetosphere.Juno has been orbiting Jupiter for more than 2,505 Earth days and flown over 510 million miles (820 million kilometers). The spacecraft arrived at Jupiter on July 4, 2016. The first science flyby occurred 53 days later, and the spacecraft continued with that orbital period until its flyby of Ganymede on June 7, 2021, which reduced its orbital period to 43 days. The Europa flyby on Sept. 29, 2022, reduced the orbital period to 38 days. After the next two Io flybys, on May 16 and July 31, Juno's orbital period will remain fixed at 32 days.\"Io is only one of the celestial bodies which continue to come under Juno's microscope during this extended mission,\" said Juno's acting project manager, Matthew Johnson of NASA's Jet Propulsion Laboratory in Southern California. \"As well as continuously changing our orbit to allow new perspectives of Jupiter and flying low over the nightside of the planet, the spacecraft will also be threading the needle between some of Jupiter's rings to learn more about their origin and composition.\" Provided byNASACitation:NASA's Juno mission nears Jupiter's moon Io (2023, May 15)retrieved 30 May 2023from https://phys.org/news/2023-05-nasa-juno-mission-nears-jupiter.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "2,505 days (6.5 years)",
     "answer_length_output_llama_7b": 4,
-    "proximity_output_llama_7b": -0.041419368237257004,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.5,
     "answer_output_alpaca_lora_7b": "510 million miles (820 million kilometers).",
     "answer_length_output_alpaca_lora_7b": 6,
-    "proximity_output_alpaca_lora_7b": -0.0463692843914032,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "32 days",
     "answer_length_output_bloomz_7b1": 2,
@@ -2036,7 +2036,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.33333333333333337,
     "answer_output_bloomz_7b1": "eMACS J1823.1+7822",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.10581476986408234,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -2070,7 +2070,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.21052631578947367,
     "answer_output_bloomz_7b1": "LSR J1835+3259",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.05798214301466942,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -2427,7 +2427,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "Timothy G. Leighton",
     "answer_length_output_bloomz_7b1": 3,
-    "proximity_output_bloomz_7b1": -0.09058738499879837,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -2614,7 +2614,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "Big Bang",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.03967034071683884,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -2954,7 +2954,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.13333333333333333,
     "answer_output_bloomz_7b1": "Suzaku",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.020980585366487503,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -3141,7 +3141,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.4,
     "answer_output_bloomz_7b1": "$93,400 per kg",
     "answer_length_output_bloomz_7b1": 3,
-    "proximity_output_bloomz_7b1": -0.016302745789289474,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -3218,7 +3218,7 @@
     "text": "With a single letter seemingly etched in the X-ray glow around it, a giant black hole at the center of a massive elliptical galaxy is making a mark on its surroundings.          This \"H\"-shaped structure is found in a detailed new X-ray map of the multimillion-degree gas around the galaxy Messier 84 (M84).As gas is captured by the gravitational force of the black hole, some of it will fall into the abyss, never to be seen again. Some of the gas, however, avoids this fate and instead gets blasted away from the black hole in the form of jets of particles. These jets can push out cavities, in the hot gas surrounding the black hole.Given the orientation of the jets to Earth and the profile of the hot gas, the cavities in M84 form what appears to resemble the letter \"H.\" The H-shaped structure in the gas is an example of pareidolia, which is when people see familiar shapes or patterns in random data. Pareidolia can occur in all kinds of data from clouds to rocks and astronomical images.Astronomers used NASA's Chandra X-ray Observatory to make a map of the hot gas (pink) in and around M84, reaching to within only about 100 light-years away from the black hole in the center of the galaxy. This gas radiates at temperatures in the tens of millions of degrees, making it primarily observable in X-rays.Credit: ChandraThe huge letter \"H\" is about 40,000 light-years tall\u2014about half the width of the Milky Way. The radio image from the National Science Foundation's Karl G. Jansky Very Large Array (VLA) (blue) reveals the jets streaking away from the black hole. Optical data from the Sloan Digital Sky Survey (white) shows M84 and neighboring galaxies. The letter H and the position of the black hole are labeled. An additional graphic shows a close-up of the region marked with a square, and separate labels for the galaxy and the jets in the optical and radio images respectively.Researchers studying M84 with Chandra and the VLA found that the jets may influence the flow of the hot gas towards the black hole even more than the gravitational pull from the black hole. For example, the team estimates matter is falling towards the black hole from the north\u2014along the direction of the jet seen in radio waves\u2014at about 500 times the mass of the Earth every year, a rate that is only a quarter of that from directions where the jet is not pointing, to the east and west. One possibility is that gas is lifted along the direction of the jet by the cavities, slowing the rate at which gas falls onto the black hole.      The authors tested a model called Bondi accretion, where all of the matter within a certain distance from a black hole\u2014effectively inside a sphere\u2014is close enough to be affected by a black hole's gravity and start falling inwards at the same rate from all directions. (The dashed circle in the close-up image is centered on the black hole and shows the approximate distance from the black hole where gas should start falling inwards.) This effect is named after the scientist Hermann Bondi, and \"accretion\" refers to matter falling toward the black hole. The new results show that Bondi accretion is not occurring in M84 because matter is not falling towards the black hole evenly from all directions.                Credit: X-ray: NASA/CXC/Princeton Univ/C. Bambic et al.; Optical: SDSS; Radio: NSF/NRAO/VLA/ESO; Image processing: NASA/CXC/SAO/N.Wolk             M84 is a cousin of Messier 87 (M87), the galaxy containing the first black hole imaged with the global Event Horizon Telescope network, and, like M87, is also a member of the Virgo Cluster. The supermassive black hole in M84, along with those in our galaxy, M87, NGC 3115, and NGC 1600, are the only ones close enough to Earth, or massive enough, for astronomers to see details in Chandra images which are so near the black hole that gas should be falling inwards.Like the black hole in M87, the one in M84 is producing a jet of particles; however, the point source of X-rays from material even closer to the black hole is over ten times fainter for M84. This allows more detailed study of gas falling towards the black hole in M84 that is farther out, preventing the faint X-rays produced by this gas from being overwhelmed by the X-ray glare from the point source.A paper describing these results is set to appear in The Monthly Notices of the Royal Astronomical Society and a preprint is published on arXiv. More information:C. J. Bambic et al, AGN Feeding and Feedback in M84: From Kiloparsec Scales to the Bondi Radius, arXiv (2023).  DOI: 10.48550/arxiv.2301.11937Journal information:Monthly Notices of the Royal Astronomical Society,  arXivProvided byChandra X-ray CenterCitation:M84: 'H' is for hot and huge in Chandra image (2023, May 4)retrieved 30 May 2023from https://phys.org/news/2023-05-m84-hot-huge-chandra-image.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "Messier 87 (M87)  Messier 84 (M84)  Messier 87 (M87)  Messier 84 (M84)  Messier 87 (M87)  Messier 84 (M84",
     "answer_length_output_llama_7b": 18,
-    "proximity_output_llama_7b": -0.08949325233697891,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.10526315789473684,
     "answer_output_alpaca_lora_7b": "The galaxy containing the first black hole imaged with the global Event Horizon Telescope network is Messier 87 (M87).",
     "answer_length_output_alpaca_lora_7b": 19,
@@ -3226,7 +3226,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.1,
     "answer_output_bloomz_7b1": "Messier 87",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.017681602388620377,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -3396,7 +3396,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.4,
     "answer_output_bloomz_7b1": "4U 0142+61",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.08990765362977982,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -3405,11 +3405,11 @@
     "text": "Using the Nanshan One-meter Wide-field Telescope (NOWT), astronomers from China have performed a photometric survey of the old open cluster NGC 188. In result, they identified many variable stars, one of which was detected for the first time. The finding was reported April 25 on the arXiv pre-print repository.          Detecting and studying variable stars could offer important hints into aspects of stellar structure and evolution. Investigation of variables could be also helpful for a better understanding of the distance scale of the universe.Located some 5,400 light years away in the constellation Cepheus, NGC 188 (also known as Caldwell 1) is a well-studied Galactic open cluster (OC) estimated to be about 6.8 billion years old. It is one of the most ancient, rich OCs in the Milky Way galaxy and is known to host dozens of variable stars.A group of researchers led by Fang-Fang Song of the Xinjiang Astronomical Observatory in China, has conducted another study of NGC 188, identifying 25 variable stars, out of which one turned out to be new detection. They employed NOWT to carry out the charge-coupled device (CCD) photometric survey of this cluster.\"In this paper, we have presented the time-series V-band photometric survey of the open cluster NGC 188, with particular emphasis on variable stars,\" the researchers wrote.All in all, the study detected 25 variable stars in a 55 \u00d7 45 arcmin2 (corresponding to 2,900 \u00d7 2,400 pixels) field of view around NGC 188. The variables received designations V1 to V25, and the results suggest that 16 variables are cluster members while the remaining stars belong to the field star population.The newly discovered star, designated V18, is a periodic variable with a period of approximately 0.317 days. The results indicate that it is a field star about 6,000 light years away, with an effective temperature of 6,116 K.According to the authors of the paper, the collected data suggest that V18 is most likely a W Ursae Majoris, W UMa (EW) for short, system. In general, EWs are eclipsing binary variable stars\u2014close binaries of spectral types F, G, or K that share a common envelope of material and are in contact with one another. Besides V18, there are 11 other EWs in the sample of 25 identified variables\u2014from V1 to V11.The data obtained by Song's team also allowed them to reclassify one previously known variable\u2014V21 (other designation V0769 Cep). NOWT observations show that V21 is likely an EA-type eclipsing binary, given that a 0.5 magnitude eclipse was detected in its light curve, rather than BY Draconis type variable\u2014as was suggested by previous studies. More information:Fang-Fang Song et al, Variable stars detection in the field of open cluster NGC 188, arXiv (2023).  DOI: 10.48550/arxiv.2304.12738Journal information:arXiv  \u00a9 2023 Science X Network Citation:New variable star detected by Chinese astronomers (2023, May 4)retrieved 30 May 2023from https://phys.org/news/2023-05-variable-star-chinese-astronomers.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "6,116 K.",
     "answer_length_output_llama_7b": 2,
-    "proximity_output_llama_7b": -0.08117979019880295,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 1.0,
     "answer_output_alpaca_lora_7b": "6,116 K.",
     "answer_length_output_alpaca_lora_7b": 2,
-    "proximity_output_alpaca_lora_7b": -0.08117979019880295,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "6,116 K",
     "answer_length_output_bloomz_7b1": 2,
@@ -3507,7 +3507,7 @@
     "text": "Searching for life's building blocks light-years away is an important task of the James Webb Space Telescope. But how does it know what to look for? Ph.D. student Marina Gomes Rachid is offering a helping hand by mapping out molecules that could exist in deep space.          Imagine the headlights of a car on a misty day. A beam of light becomes visible in the fog, revealing particles of moisture floating in the air, absorbing and reflecting the light. Similarly, the James Webb Space Telescope (JWST) observes how stars send infrared light through space, making the molecules it meets along the way visible. In seemingly empty areas of space, clouds filled with the smallest of particles appear.But it is very challenging to identify the molecules that the infrared light reveals remains very challenging. Even for a sophisticated device like the JWST, that is the largest of its kind.That's where the research of Gomes Rachid comes in. Over the past four years, during her Ph.D. at the Leiden University Laboratory for Astrophysics, the Brazilian identified some of the molecules the space telescope might come across. Thanks to this research, she could provide the JWST with an invaluable dataset.Marina calls it the \"chemistry of the skies\": looking at the stars from a chemist point of view. This offers a whole new perspective. Space might be unmeasurably vast, but every planet or comet is made up of tiny molecules, too small to even see with the naked eye. And they tell you more than you might think about our universe and ultimately ourselves.Gomes Rachid is interested in the molecules that are created during the early phase of the formation of a new star, when a huge cloud of gas and dust floats around in space. It's where the cosmic chemistry happens.Earlier research had already shown that many organic molecules are present in this kind of interstellar gas. Organic molecules are compounds that contain carbon (C), such as methane (CH4), and they are key to life. But the Ph.D. candidate wanted to go one step further and find out where these molecules are formed.To do this, she had to simulate the conditions of the deepest core of these gas clouds. There the temperature can reach as low as minus 250 degrees Celsius, causing almost all materials to freeze. \"In this cold interior, the cosmic air is a bit denser,\" Gomes Rachid says. \"That means atoms and molecules move closer to each other in the frozen material and new molecules are formed.\"In the Leiden laboratory, she observed how these frozen organic molecules absorbed the infrared light shined upon them. Looking at how each molecule absorbed the light, she measured its 'fingerprint' and added it to a database. Thanks to this information, the James Webb Space Telescope now knows precisely what all these tiny molecules look like in infrared light.Molecules light-years away from us might sound a little abstract, but they do tell us something about where life comes from. \"If these molecules are present in the frozen cores, as we expect them to be, it would mean prebiotic molecules can be formed in space,\" Gomes Rachid says. \"You could consider them as the starter kit for life. So eventually, this is also about our own origin.\" Provided byLeiden UniversityCitation:Hunting for life's building blocks at minus 250 degrees Celsius (2023, May 3)retrieved 30 May 2023from https://phys.org/news/2023-05-life-blocks-degrees-celsius.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "Marina Gomes Rachid  PHOTO:  Marina Gomes Rachid  PHOTO:  Marina Gomes Rachid  PHOTO:  Marina Gomes Rachid  PHOTO:  Marina Gomes Rachid  PHOTO:",
     "answer_length_output_llama_7b": 20,
-    "proximity_output_llama_7b": -0.14899127185344696,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.2608695652173913,
     "answer_output_alpaca_lora_7b": "Marina Gomes Rachid.",
     "answer_length_output_alpaca_lora_7b": 3,
@@ -3532,7 +3532,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "Douglas Duncan",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.0021052199881523848,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -3617,7 +3617,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "13,020 K",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.056075140833854675,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -3855,7 +3855,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.16666666666666669,
     "answer_output_bloomz_7b1": "Segment Anything Model (SAM)",
     "answer_length_output_bloomz_7b1": 4,
-    "proximity_output_bloomz_7b1": -0.018303371965885162,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.4
   },
   {
@@ -3889,7 +3889,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.19999999999999998,
     "answer_output_bloomz_7b1": "MIRI",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.07647040486335754,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -3983,7 +3983,7 @@
     "text": "A critical antenna is jammed on a Jupiter-bound spacecraft launched two weeks ago, the European Space Agency reported Friday.       The 52-foot (16-meter) radar antenna on Juice unfolded only one-third of the way following liftoff, according to the space agency.Engineers suspect a tiny pin may be protruding. Flight controllers in Germany plan to fire the spacecraft's engine in hopes of shaking the pin loose. If that doesn't work, they said they have plenty of time to solve the problem.Juice, short for Jupiter Icy Moons Explorer, won't reach the giant planet until 2031. It's taking a roundabout path to get there, including gravity-assist flybys of Earth and our moon, and Venus.The radar antenna is needed to peer beneath the icy crust of three Jupiter moons suspected of harboring underground oceans and possibly life, a major goal of the nearly $1.8 billion mission. Its targets include Callisto, Europa and Ganymede, the largest moon in the solar system.                This photo provided by the European Space Agency shows an Ariane 5 rocket carrying the Jupiter Icy Moons Explorer, Juice, spacecraft on a launch pad at Europe's Spaceport in Kourou, French Guiana, on Wednesday, April 12, 2023. The European Space Agency said Friday, April 28, 2023, that the 52-foot radar antenna on its Juice spacecraft unfolded only one-third of the way following liftoff. Credit: Stephane Corvaja/ESA via AP             The space agency said everything else is going well with the spacecraft, about the size of a small bus. A radio antenna, solar panels and a 35-foot (10.6-meter) boom for measuring Jupiter's magnetic field have all been successfully deployed.    \u00a9 2023 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed without permission. Citation:Key radar antenna stuck on Europe's Jupiter-bound spacecraft (2023, April 28)retrieved 30 May 2023from https://phys.org/news/2023-04-key-radar-antenna-stuck-europe.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "Juice",
     "answer_length_output_llama_7b": 1,
-    "proximity_output_llama_7b": -0.005558620672672987,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 1.0,
     "answer_output_alpaca_lora_7b": "The name of the Jupiter-bound spacecraft launched two weeks ago is Juice.",
     "answer_length_output_alpaca_lora_7b": 12,
@@ -3991,7 +3991,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.14285714285714288,
     "answer_output_bloomz_7b1": "Juice",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.005558620672672987,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -4068,7 +4068,7 @@
     "text": "Emirati astronaut Sultan Alneyadi stepped out of the International Space Station (ISS) Friday for the first space walk by an Arab astronaut, a moment touted by the UAE as a \"milestone\".          Alneyadi, 41, dubbed the \"Sultan of Space\" by his alma mater, become the first Arab astronaut to embark on a six-month space mission when he blasted off for the ISS in early March aboard a SpaceX Falcon 9 rocket.On Friday, he undertook \"the first Arab spacewalk in history,\" wearing a space suit that bears the Emirati flag, said the United Arab Emirates' Mohammed bin Rashid Space Centre (MBRSC), calling it \"a new historic milestone\".Footage live-streamed by NASA showed the UAE astronaut exiting an ISS hatch.\"Sultan Alneyadi has egressed the hatch, the first ever space walk by an Arab astronaut,\" NASA said.The space walk will last for around six hours and thirty minutes, according to MBRSC and NASA.Alongside NASA's Stephen Bowen, Alneyadi will \"change the Radio Frequency Group unit and prepare for the installation of solar panels,\" the Emirati astronaut said in a Twitter post carried by the official WAM news agency.NASA said the two astronauts will \"route power cables to prepare for future power system upgrades outside the\" ISS.Alneyadi is the second man from the wealthy UAE to go to space, after Hazzaa al-Mansoori's eight-day mission in 2019. He is the first Arab to embark on a long-duration space mission.The UAE is a newcomer to the world of space exploration but quickly making its mark.It sent an unmanned spacecraft to Mars in 2021, in the Arab world's first interplanetary mission, and last year a rover to the Moon.Earlier this week, the UAE-developed Rashid Moon rover was lost when Japanese start-up ispace's Hakuto-R lunar lander apparently crashed on the Moon's surface, ispace said on Wednesday.Dubai's ruler, Sheikh Mohammed bin Rashid al-Maktoum quickly directed the MBRSC to begin work on a second rover dubbed Rashid 2.    \u00a9 2023 AFP Citation:UAE astronaut exits ISS for first Arab space walk (2023, April 28)retrieved 30 May 2023from https://phys.org/news/2023-04-uae-astronaut-exits-iss-arab.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "Rashid 2",
     "answer_length_output_llama_7b": 2,
-    "proximity_output_llama_7b": -0.17068739235401154,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 1.0,
     "answer_output_alpaca_lora_7b": "Rashid 2.",
     "answer_length_output_alpaca_lora_7b": 2,
@@ -4076,7 +4076,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "Rashid 2",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.17068739235401154,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -4089,7 +4089,7 @@
     "rouge_score_output_llama_7b": 0.07692307692307693,
     "answer_output_alpaca_lora_7b": "Dark matter.  APPROVED BY:  Dr. Andrew J. Fabian",
     "answer_length_output_alpaca_lora_7b": 8,
-    "proximity_output_alpaca_lora_7b": -0.06295837461948395,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 0.4,
     "answer_output_bloomz_7b1": "dark matter",
     "answer_length_output_bloomz_7b1": 2,
@@ -4110,7 +4110,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.19999999999999998,
     "answer_output_bloomz_7b1": "Quaoar",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.08177881687879562,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -4229,7 +4229,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "DINGO",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.10677378624677658,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -4378,7 +4378,7 @@
     "rouge_score_output_llama_7b": 0.20689655172413793,
     "answer_output_alpaca_lora_7b": "KELT-9 b.",
     "answer_length_output_alpaca_lora_7b": 2,
-    "proximity_output_alpaca_lora_7b": -0.13202553987503052,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "KELT-9 b",
     "answer_length_output_bloomz_7b1": 2,
@@ -4416,7 +4416,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.2105263157894737,
     "answer_output_bloomz_7b1": "CHIME/FRB",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.021292170509696007,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.33333333333333337
   },
   {
@@ -4433,7 +4433,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "Richard Love",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.08534182608127594,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -4501,7 +4501,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.04040404040404041,
     "answer_output_bloomz_7b1": "El Gordo",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.03935801237821579,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -4603,7 +4603,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "Alvin",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.14342084527015686,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.2857142857142857
   },
   {
@@ -4654,7 +4654,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.4,
     "answer_output_bloomz_7b1": "UGC 678",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.017454417422413826,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -4824,7 +4824,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.5,
     "answer_output_bloomz_7b1": "Egbert Edelbroek",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.00011066286242567003,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.5
   },
   {
@@ -5241,7 +5241,7 @@
     "text": "Using the Echelle SPectrograph for Rocky Exoplanets and Stable Spectroscopic Observations (ESPRESSO), astronomers from the Chinese Academy of Sciences (CAS) have investigated the atmosphere of MASCARA-4b\u2014a distant \"ultra-hot Jupiter\" exoplanet. The study, published April 11 on the arXiv pre-print server, resulted in the detection of rubidium and samarium in an exoplanet's atmosphere for the first time.          At a distance of some 556 light years away from the Earth, MASCARA-4b is a gas giant with an equilibrium temperature of 2,250 K orbiting a bright A-type star. Its size is about 1.51 Jupiter radii and its mass is 1.67 Jupiter masses, which gives a density at a level of 0.48 g/cm3. The planet orbits its host every 2.82 days, at a distance of 0.047 AU from it. Due to its large atmospheric scale heights and transmission spectroscopy metric (TSM), MASCARA-4b is an excellent target for atmospheric characterization.That is why a team of astronomers led by Zewen Jiang of the CAS Key Laboratory of Optical Astronomy in Beijing, China, decided to observe MASCARA-4b with ESPRESSO\u2014a fiber-fed ultra-stable echelle high-resolution spectrograph, mounted on the Very Large Telescope (VLT) at European Southern Observatory (ESO) in Cerro Paranal, Chile.\"Two transits of MASCARA-4 b were observed on February 13, 2020 and March 1, 2020 with ESPRESSO under the ESO programs 0104.C-0605 (PI:WYTTENBACH).... In this letter, we present a survey of atoms/ions in the atmosphere of the MASCARA-4b, using the two VLT/ESPRESSO transits data,\" the researchers wrote.The observations detected several heavier species in the atmosphere of MASCARA-4 b, including rubidium (Rb), samarium (Sm), as well as ions of titanium (Ti+) and barium (Ba+). This is the first time when Rb and Sm are detected in the atmosphere of an exoplanet, while Ti+ and Ba+ were reported in several other extrasolar planets.Given that the new observations mark the third time when Ba+ is detected in the atmosphere of an ultra-hot Jupiter (UHJ) exoplanet, Jiang's team suspects that this element may be commonly present among the population of UHJs. The researchers added that the identification of Ba+ in high altitudes in UHJ's suggests that such planets may experience atmospheric dynamics that we currently do not expect.It was noted that Sm, with an atom number of 62, is so far the heaviest element found in the atmosphere of an alien world. It is also the first lanthanide series element that has been detected in exoplanets.Besides the new discoveries, the study also confirmed previous detections of magnesium (Mg), calcium (Ca), chromium (Cr) and iron (Fe) in the atmosphere of MASCARA-4b. The authors of the paper encourage further atmospheric studies of exoplanets in order to find other rare elements.\"Higher precision HRS [high-resolution spectroscopic] studies should be further conducted on UHJs to reveal the presence of additional species and even some relatively abundant minor isotopes,\" the researchers concluded. More information:Zewen Jiang et al, Detection of rubidium and samarium in the atmosphere of the ultra-hot Jupiter MASCARA-4b, arXiv (2023).  DOI: 10.48550/arxiv.2304.04948Journal information:arXiv  \u00a9 2023 Science X Network Citation:Chinese astronomers detect rubidium and samarium in the atmosphere of a distant exoplanet (2023, April 20)retrieved 30 May 2023from https://phys.org/news/2023-04-chinese-astronomers-rubidium-samarium-atmosphere.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "Zewen Jiang 2023-04-20 10:00:00 https://phys.org/news/2023-04-chinese-astronomers-rubidium-samarium-atmosphere.html 20",
     "answer_length_output_llama_7b": 6,
-    "proximity_output_llama_7b": -0.013845822773873806,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.17391304347826084,
     "answer_output_alpaca_lora_7b": "Zewen Jiang. \u00a9 2023 Science X Network",
     "answer_length_output_alpaca_lora_7b": 7,
@@ -5402,7 +5402,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "Cody",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.21508537232875824,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -6006,7 +6006,7 @@
     "text": "A European spacecraft rocketed away Friday on a decadelong quest to explore Jupiter and three of its icy moons that could hold buried oceans.          The journey began with a perfect morning liftoff by Europe's Ariane rocket from French Guiana on the coast of South America. But there were some tense minutes later as controllers awaited signals from the spacecraft.When contact finally was confirmed close to an hour into the flight, Mission Control in Germany declared: \"The spacecraft is alive!\"It will take the robotic explorer, dubbed Juice, eight years to reach Jupiter, where it will scope out not only the solar system's biggest planet but also Europa, Callisto and Ganymede. The three ice-encrusted moons are believed to harbor underground oceans, where sea life could exist.Then in perhaps the most impressive feat of all, Juice will attempt to go into orbit around Ganymede: No spacecraft has ever orbited a moon other than our own.With so many moons\u2014at last count 95\u2014astronomers consider Jupiter a mini solar system of its own, with missions like Juice long overdue.\"This is a mission that is answering questions of science that are burning to all of us,\" said European Space Agency's director general, Josef Aschbacher after the launch. \"Of course, one of these questions is: Is there life out there?\"                This photo provided by the European Space Agency shows an Ariane 5 rocket carrying the Jupiter Icy Moons Explorer, Juice, spacecraft lifting off from Europe's Spaceport in Kourou, French Guiana, Friday, April 14, 2023. Credit: ESA via AP             It can't find life, \"but Juice will be identifying the habitability of these icy moons around Jupiter,\" he added.The spacecraft is taking a long, roundabout route to Jupiter, covering 4 billion miles (6.6 billion kilometers)It will swoop within 125 miles (200 kilometers) of Callisto and 250 miles (400 kilometers) of Europa and Ganymede, completing 35 flybys while circling Jupiter. Then it will hit the brakes to orbit Ganymede, the primary target of the 1.6 billion-euro mission (nearly $1.8 billion).Ganymede is not only the solar system's largest moon\u2014it surpasses Mercury\u2014but has its own magnetic field with dazzling auroras at the poles.Even more enticing, it's thought to have an underground ocean holding more water than Earth. Ditto for Europa and its reported geysers, and heavily cratered Callisto, a potential destination for humans given its distance from Jupiter's debilitating radiation belts, according to Carnegie Institution's Scott Sheppard, who's not involved with the Juice mission.                This photo provided by the European Space Agency shows an Ariane rocket carrying the Jupiter Icy Moons Explorer, Juice, spacecraft lifting off from Europe's Spaceport in Kourou, French Guiana, Friday, April 14, 2023. A European spacecraft rocketed away Friday on a decadelong quest to explore Jupiter and three of its icy moons that could have buried oceans. Credit: Manuel Pedoussaut/ESA via AP             \"The ocean worlds in our solar system are the most likely to have possible life, so these large moons of Jupiter are prime candidates to search,\" said Sheppard, a moon hunter who's helped discover well over 100 in the outer solar system.The spacecraft, about the size of a small bus, won't reach Jupiter until 2031, relying on gravity-assist flybys of Earth and our moon, as well as Venus.\"These things take time\u2014and they change our world,\" said the Planetary Society's chief executive, Bill Nye. The California-based space advocacy group organized a virtual watch party for the launch.Belgium's King Philippe and Prince Gabriel, and a pair of astronauts\u2014France's Thomas Pesquet and Germany's Matthias Maurer\u2014were among the spectators in French Guiana. Thursday's launch attempt was nixed by the threat of lightning.                This image provided by the European Space Agency depicts the Jupiter Icy Moons Explorer, Juice, spacecraft orbiting the gas giant. Credit: ESA/ATG Medialab via AP             Juice\u2014short for Jupiter Icy Moons Explorer\u2014will spend three years buzzing Callisto, Europa and Ganymede. The spacecraft will attempt to enter orbit around Ganymede in late 2034, circling the moon for nearly a year before flight controllers send it crashing down in 2035, later if enough fuel remains.Europa is especially attractive to scientists hunting for signs of life beyond Earth. Juice will keep its Europa encounters to a minimum, however, because of the intense radiation there so close to Jupiter.Juice's sensitive electronics are encased in lead to protect against radiation. The 14,000-pound (6,350-kilogram) spacecraft also is wrapped with thermal blankets\u2014temperatures near Jupiter hover around minus 380 degrees Fahrenheit (minus 230 degrees Celsius). And its solar panels stretch 88 feet (27 meters) tip to tip to soak in as much sunlight that far from the sun.Late next year, NASA will send an even more heavily shielded spacecraft to Jupiter, the long-awaited Europa Clipper, which will beat Juice to Jupiter by more than a year because it will launch on SpaceX's mightier rocket. The two spacecraft will team up to study Europa like never before.                    This photo provided by the European Space Agency shows an Ariane 5 rocket carrying the Jupiter Icy Moons Explorer, Juice, spacecraft lifting off from Europe's Spaceport in Kourou, French Guiana, Friday, April 14, 2023. Credit: Manuel Pedoussaut/ESA via AP                                     This photo provided by the European Space Agency shows an Ariane rocket carrying the Jupiter Icy Moons Explorer, Juice, spacecraft lifting off from Europe's Spaceport in Kourou, French Guiana, Friday, April 14, 2023. A European spacecraft rocketed away Friday on a decadelong quest to explore Jupiter and three of its icy moons that could have buried oceans. Credit: Manuel Pedoussaut/ESA via AP                                     This photo provided by the European Space Agency shows an Ariane 5 rocket carrying the Jupiter Icy Moons Explorer, Juice, spacecraft on a launch pad at Europe's Spaceport in Kourou, French Guiana, on Wednesday, April 12, 2023. Credit: Stephane Corvaja/ESA via AP                 NASA has long dominated exploration at Jupiter, beginning with flybys in the 1970s by the twin Pioneers and then Voyagers. Only one spacecraft remains humming at Jupiter: NASA's Juno, which just logged its 50th orbit since 2016.Europe provided nine of Juice's science instruments, with NASA supplying just one.If Juice confirms underground oceans conducive to past or present life, project scientist Olivier Witasse said the next step will be to send drills to penetrate the icy crusts and maybe even a submarine.\"We have to be creative,\" he said. \"We can still think it's science fiction, but sometimes the science fiction can join the reality.\"    \u00a9 2023 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed without permission. Citation:European spacecraft on way to Jupiter and its icy moons (2023, April 14)retrieved 30 May 2023from https://phys.org/news/2023-04-european-spacecraft-rockets-jupiter-icy.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "Juice Juice Juice  QUEST",
     "answer_length_output_llama_7b": 4,
-    "proximity_output_llama_7b": -0.007878887467086315,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.4,
     "answer_output_alpaca_lora_7b": "The name of the spacecraft that will explore Jupiter is Juice.",
     "answer_length_output_alpaca_lora_7b": 11,
@@ -6014,7 +6014,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.16666666666666669,
     "answer_output_bloomz_7b1": "Juice",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.0033541549928486347,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -6040,7 +6040,7 @@
     "text": "The European Space Agency's JUICE mission to explore Jupiter's icy, ocean-bearing moons will again try to blast off on Friday, a day after the first launch attempt was called off due to the threat of lightning.          The spacecraft is scheduled to launch on an Ariane 5 rocket from Europe's spaceport in Kourou, French Guiana at 1214 GMT, 30 seconds earlier than Thursday's aborted effort.If successful, the uncrewed, six-tonne spacecraft will embark on an eight-year journey through the Solar System aiming to discover whether Jupiter's moons are capable of hosting extraterrestrial life in the vast oceans hidden under their ice-covered shells.Thursday's launch was called off just minutes before the countdown was set to begin, disappointing those gathered in the Jupiter control room in Kourou, including Belgium's King Philippe.Stephane Israel, the CEO of French firm Arianespace which provided the Ariane 5 rocket, told AFP that \"a large mass of clouds approached and we absolutely could not proceed with the launch due to the risk of lightning\".On Friday, the threat of lightning will be monitored \"until the last moment,\" he added.The European Space Agency tweeted that Friday's launch has received the green light for fuelling, and the \"weather looks good (so far)\".                The JUICE probe which will explore Jupiter's ice, ocean-bearing moons.             \"Shall we try again?\" it added.The JUpiter ICy Moons Explorer (JUICE) plans to take a long and winding path to the gas giant, which is some 628 million kilometers (390 million miles) from Earth.It will use several gravitational boosts along the way, first by doing a fly-by of Earth and the Moon, then by slingshotting around Venus in 2025 before swinging past Earth again in 2029.When the probe finally arrives at Jupiter in July 2031, it will need to carefully hit the brakes to enter the gas giant's orbit.From there, it will focus on Jupiter and its three icy moons Europa, Ganymede and Callisto.Liquid water oceanThe moons were first discovered by astronomer Galileo Galilei more than 400 years ago, but were long ignored as potential candidates for hosting life.However, the discovery of huge oceans of liquid water\u2014the main ingredient for life as we know it\u2014kilometers beneath their icy shells has made Ganymede and Europa prime candidates to potentially host life in our celestial backyard.                The uncrewed, six-tonne spacecraft JUICE, pictured earlier this year before being shipped to Kourou for launch.             JUICE will set its sights on Ganymede, the Solar System's largest moon and the only one that has its own magnetic field, which protects it from radiation.In 2034, JUICE will slide into Ganymede's orbit, the first time a spacecraft will have done so around a moon other than our own.The mission will not be able to directly detect the existence of alien life, but instead aims to establish whether the moons have the right conditions to harbor life.                The mission aims to find out whether the vast oceans buried under the icy shells of the moons could support life.             The delayed launch of the 1.6 billion-euro ($1.7 billion) mission comes during a crisis for European space efforts, after Russia pulled its Soyuz rockets in response to sanctions over the war in Ukraine.Combined with repeated delays to the next generation Ariane 6 rockets and the failure of Vega-C's first commercial flight last year, Europe has been struggling to launch its missions into space.JUICE is expected be the second-last launch for Ariane 5 before it is replaced by the Ariane 6.    \u00a9 2023 AFP Citation:Europe's Jupiter probe set for new launch attempt (2023, April 14)retrieved 30 May 2023from https://phys.org/news/2023-04-europe-jupiter-probe.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "JUICE",
     "answer_length_output_llama_7b": 1,
-    "proximity_output_llama_7b": -0.11429525166749954,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 1.0,
     "answer_output_alpaca_lora_7b": "The spacecraft is called JUICE.",
     "answer_length_output_alpaca_lora_7b": 5,
@@ -6048,7 +6048,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.33333333333333337,
     "answer_output_bloomz_7b1": "JUICE",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.11429525166749954,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -6210,7 +6210,7 @@
     "text": "The launch of the European Space Agency's JUICE mission, which aims to discover whether Jupiter's icy moons are capable of hosting extraterrestrial life, was postponed on Thursday for 24 hours due to bad weather.          The launch was called off just minutes before the planned lift-off at 1215 GMT from Europe's spaceport in Kourou, French Guiana, because of the threat of lightning in the cloudy skies overhead.The next attempt will take place at 1214 GMT on Friday, the European Space Agency said.Stephane Israel, the CEO of French firm Arianespace which provided the Ariane 5 rocket, said that with just minutes to spare, \"a large mass of clouds approached and we absolutely could not proceed with the launch due to the risk of lightning\".For lift-off to go ahead, three parameters must get the green light: the launcher, the probe and the weather\u2014which was \"the final suspense,\" he told AFP.While the winds are expected to allow a green light on Friday, the risk of lightning will be monitored \"until the last moment,\" he added.Unlike most launches, JUICE has a launch window of a just a single second because of the specific trajectory it is aiming for.The delay was announced to the Jupiter control room in Kourou, where many people, including Belgium's King Philippe, had gathered to watch the launch.                Jupiter's moons, Ganymede, Europa and Callisto, which will be explored by the ESA's mission JUICE.             Liquid water oceansIf the weather permits a launch on Friday, the JUpiter ICy Moons Explorer (JUICE) is still on track to arrive at the gas giant in July 2031.The uncrewed, six-tonne spacecraft will investigate Jupiter's icy moons, which were first discovered by astronomer Galileo Galilei more than 400 years ago.The discovery of huge oceans of liquid water\u2014the main ingredient for life as we know it\u2014kilometers beneath their icy shells has made them prime candidates to potentially host life in our celestial backyard.Once launched, JUICE will take a long and winding path to Jupiter, which is some 628 million kilometers (390 million miles) from Earth, using other planets for a gravitational boost along the way.First, it will do a fly-by of Earth and the Moon, then will slingshot around Venus in 2025 before swinging past Earth again in 2029.Once the probe arrives in 2031, it will need to very carefully hit the brakes to enter Jupiter's orbit.                The moon Ganymede lurks behind the gas giant Jupiter in a Hubble telescope image from 2008.             From there, JUICE will focus on Jupiter and its three icy, ocean-bearing moons Europa, Ganymede and Callisto.Its 10 scientific instruments\u2014including an optical camera, ice-penetrating radar, spectrometer and magnetometer\u2014will analyze the local weather, magnetic field, gravitational pull and other elements.It also has a record 85 square meters of solar panels to collect as much energy as possible near Jupiter, where sunlight is 25 times weaker than on Earth.Philippe Baptiste, head of France's CNES space agency, said it was \"the most complex probe ever sent to Jupiter\".      First in another moon's orbitJUICE will then set its sights on Ganymede, the Solar System's largest moon and the only one that has its own magnetic field, which protects it from radiation.In 2034, JUICE will slide into Ganymede's orbit, the first time a spacecraft will have done so around a moon other than our own.                JUICE will use its 10 scientific instruments to inspect Jupiter and its icy moons.             The mission will not be able to directly detect the existence of alien life, but instead aims to establish whether the moons have the right conditions to harbor life.If there is life in these buried oceans, scientists theorize it would likely be primitive microbes like bacteria, which are capable of surviving on Earth in such extreme environments.Europa, another prime candidates for alien life, will be investigated by NASA's Europa Clipper mission, which is scheduled to launch in October 2024.The postponement of the 1.6 billion-euro ($1.7 billion) JUICE mission comes during a crisis for European space efforts, after Russia pulled its Soyuz rockets in response to sanctions over the war in Ukraine.Combined with repeated delays to the next generation Ariane 6 rockets and the failure of Vega-C's first commercial flight last year, Europe is struggling to launch its missions into space.The JUICE mission is expected be the second-last launch for Ariane 5 before it is replaced by the Ariane 6.    \u00a9 2023 AFP Citation:Weather delays launch of Europe's Jupiter mission by 24 hours (Update) (2023, April 13)retrieved 30 May 2023from https://phys.org/news/2023-04-europe-juice-mission-jupiter-icy.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "JUICE JUICE",
     "answer_length_output_llama_7b": 2,
-    "proximity_output_llama_7b": -0.10984614491462708,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.5,
     "answer_output_alpaca_lora_7b": "The mission that will investigate Jupiter's moons is called JUICE.",
     "answer_length_output_alpaca_lora_7b": 10,
@@ -6218,7 +6218,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.3076923076923077,
     "answer_output_bloomz_7b1": "JUICE",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.10984614491462708,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.6666666666666666
   },
   {
@@ -6295,7 +6295,7 @@
     "text": "On Oct. 11, 2022, NASA's James Webb Space Telescope spent over 20 hours observing the long-studied Hubble Ultra Deep Field for the first time. The general observer program (GO 1963) focused on analyzing the field in wavelengths between approximately 2 and 4 microns.          We spoke with Christina Williams (NOIRLab), Sandro Tacchella (University of Cambridge), and Michael Maseda (University of Wisconsin-Madison) to learn more about the first observation of the Hubble Ultra Deep Field through Webb's eyes.What is important for people to know about these Webb observations?Michael Maseda: The fact that we see hot, ionized gas is telling us exactly where stars are being born in these galaxies. Now we can separate those areas from where stars already existed. That piece of information is very important because, billions of years later, we don't exactly know how galaxies became how they are today. It's important to note that we still haven't seen everything there is to see. Our whole program was ~24 hours, which isn't that much time in the grand scheme of how much time other observatories have looked at it. But, even in this relatively short amount of time, we're starting to put together a new picture of how galaxies are growing at this really interesting point in the history of the Universe.What are you interested in learning by exploring the Hubble Ultra Deep Field with Webb?Christina Williams: We proposed to image the Ultra Deep Field using some of Webb's NIRCam's medium-band image filters, which allowed us to take images of spectral features more accurately than we could with broadband filters because medium-band filters span a shorter wavelength range. This gives us more sensitivity in measuring colors, which helps us understand the history of star formation and ionization properties of galaxies during the first billion years of the universe, like in the Reionization Era. Measuring the energy that galaxies produced in that time will help us understand how galaxies reionized the universe, reverting it from being neutral gas to once again being an ionized plasma like it was after the big bang.Sandro Tacchella: One of the key outstanding questions in extragalactic astrophysics is how the first galaxies form. Since the medium bands cover a range of different wavelengths, we can either directly find the some of the first galaxies in the early universe, or we can age-date the stars in galaxies when the universe was about one billion years old to understand when the galaxy actually formed their stars in the past. This survey helps to pin down the formation of the first galaxies.Michael Maseda: The capabilities that we have with Webb's medium-band filters are actually quite new. We're getting a sort of hybrid between imaging and spectroscopy, so we're getting detailed information for basically all of the galaxies in the field, as opposed to traditional spectroscopy where you could only select a few galaxies in the field of view for study. It's really a complete picture in the sense that this information complements a lot of existing data, not only from Hubble, but ground-based instrumentation like MUSE (the Multi Unit Spectroscopic Explorer) on the Very Large Telescope, where we have spectroscopy at different wavelengths for a number of these objects. MUSE is very good at finding galaxies that have Lyman-alpha emission, or light from ionized hydrogen in these galaxies, which are the type of galaxies that existed when reionization was ending. This new data is a missing piece that we did not have before in terms of understanding the full population of galaxies in this field.                The capabilities of NASA\u2019s James Webb Space Telescope\u2019s Near-Infrared Camera are on full display in this comparison between Hubble\u2019s and Webb\u2019s observation of the Hubble Ultra Deep Field. The left, which demonstrates Hubble\u2019s observation with its Wide Field Camera 3, required an exposure time of 11.3 days, while the right only took 0.83 days. Several areas within the Webb image reveal previously invisible, red galaxies. Credit: NASA, ESA, CSA, STScI,\u00a0C. Williams (University of Arizona). Image processing: J. DePasquale (STScI).             Was there anything unexpected in these data that surprised you?Michael Maseda: I don't know if I was surprised exactly, but the images were even better than I was expecting. In these images, you can actually see by eye that this is ionized gas over a fairly large area. I was expecting everything to be unresolved, but we have a high-enough resolution to actually see it. And I'm pleased to see it because it could have been a lot harder to understand what was happening.Christina Williams: I think that seeing how beautiful the images are and how high quality they ended up being was definitely a high point. We calculated that we would be able to do things like this, but it was different to see it and have the real data in practice.Why did you elect to make the data immediately public?Sandro Tacchella: Galaxies are very complex systems in which a wide range of different processes work on different spatial and temporal scales, so there are many approaches that can be used to better understand the physics of galaxies. So, making it available to many different groups will facilitate the search for more insight.Christina Williams: Webb is still very new, and people are still learning the best practices of how to analyze data sets. So, it benefits everyone to have a few data sets that are available immediately to help people understand the best way to make use of Webb data moving forward, and to better plan programs in future cycles that are based on real experience with data Provided byWebb Space TelescopeCitation:Webb shows areas of new star formation and galactic evolution (2023, April 12)retrieved 30 May 2023from https://phys.org/news/2023-04-webb-areas-star-formation-galactic.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "Near-Infrared Camera (NIRCam)",
     "answer_length_output_llama_7b": 3,
-    "proximity_output_llama_7b": -0.14812380075454712,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.0,
     "answer_output_alpaca_lora_7b": "The instrument that allows us to see ionized gas is the Near-Infrared Camera (NIRCam) on the Webb Space Telescope.",
     "answer_length_output_alpaca_lora_7b": 19,
@@ -6337,7 +6337,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.047619047619047616,
     "answer_output_bloomz_7b1": "24",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.12282943725585938,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -6388,7 +6388,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.8333333333333333,
     "answer_output_bloomz_7b1": "HERA",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.04060567542910576,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -6422,7 +6422,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.2857142857142857,
     "answer_output_bloomz_7b1": "ARTS",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.0057144975289702415,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -6456,7 +6456,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.25,
     "answer_output_bloomz_7b1": "JUICE",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.09115582704544067,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -6490,7 +6490,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.11764705882352941,
     "answer_output_bloomz_7b1": "Juice",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.04905439913272858,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -6737,15 +6737,15 @@
     "text": "Using the Near Infrared Camera (NIRCam) onboard the James Webb Space Telescope (JWST), an international team of astronomers has discovered the first known binary system composed of two Y-type brown dwarfs. The finding was reported in a research paper published March 29 on the arXiv pre-print repository.          Brown dwarfs are intermediate substellar objects between planets and stars with masses below the hydrogen burning limit\u2014about 80 Jupiter masses. One subclass of brown dwarfs (with effective temperatures lower than 500 K) is known as Y dwarfs, and represents the coolest and least luminous substellar objects so far detected.WISE J033605.05\u2212014350.4 (or W0336 for short) is a nearby brown dwarf of spectral type Y0 detected in 2012 with NASA's Wide-field Infrared Survey Explorer (WISE). The object is located some 32.7 light years away in the constellation Eridanus and has an effective temperature of about 460 K.Now, new observations conducted by a group of astronomers led by Per Calissendorf of the University of Michigan in Ann Arbor, unveiled the presence of a companion object to W0336. The brown dwarf was observed in September 2022 as part of a JWST Cycle 1 GO program\u2014a survey of 20 Y dwarfs.\"We report the discovery of the first brown dwarf binary system with a Y dwarf primary, WISE J033605.05\u2212014350.4, observed with NIRCam on JWST with the F150W and F480M filters. We employed an empirical point spread function binary model to identify the companion, located at a projected separation of 0.''084, position angle of 295 degrees, and with contrast of 2.8 and 1.8 magnitudes in F150W and F480M, respectively,\" the researchers wrote in the paper.The observations detected a faint companion to W0336, at a physical separation of approximately 0.97 AU from it. The newfound object has a mass between five and 11.5 Jupiter masses, and its effective temperature is estimated to be 325 K. Therefore, the companion was classified as a Y-type brown dwarf.The primary brown dwarf is estimated to be between 8.5 to 18 times more massive than Jupiter, while its effective temperature is about 415 K. The system has an orbital period of seven years and its age is assumed to be 1\u20133 billion years. However, the evolutionary models suggest that the binary W0336 may be even older than 5 billion years.The researchers noted that W0336 is a tightly bound system with a relatively low mass-ratio (of about 0.61)\u2014what is in contrast to other known binaries containing a Y-type brown dwarf. Hence, it is still difficult to conclude whether such systems represent the true binary population of ultracool dwarfs or can be considered as peculiar systems.The authors of the paper propose follow-up spectroscopic and photometric observations of W0336 over a wide wavelength range in order to shed more light on the properties of both Y dwarfs. More information:Per Calissendorff et al, JWST/NIRCam discovery of the first Y+Y brown dwarf binary: WISE J033605.05$-$014350.4, arXiv (2023).  DOI: 10.48550/arxiv.2303.16923Journal information:arXiv  \u00a9 2023 Science X Network Citation:First Y brown dwarf binary system discovered (2023, April 10)retrieved 30 May 2023from https://phys.org/news/2023-04-brown-dwarf-binary.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "325 K.",
     "answer_length_output_llama_7b": 2,
-    "proximity_output_llama_7b": -0.04957294464111328,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 1.0,
     "answer_output_alpaca_lora_7b": "325 K.",
     "answer_length_output_alpaca_lora_7b": 2,
-    "proximity_output_alpaca_lora_7b": -0.04957294464111328,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "325 K",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.03115450218319893,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {

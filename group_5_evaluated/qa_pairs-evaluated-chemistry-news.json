@@ -98,7 +98,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.14285714285714288,
     "answer_output_bloomz_7b1": "Cori",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.0754290223121643,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -268,7 +268,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.14285714285714288,
     "answer_output_bloomz_7b1": "Cori",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.0754290223121643,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -757,11 +757,11 @@
     "rouge_score_output_llama_7b": 0.0,
     "answer_output_alpaca_lora_7b": "88.1 lm/W.",
     "answer_length_output_alpaca_lora_7b": 2,
-    "proximity_output_alpaca_lora_7b": -0.17445500195026398,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "88.1 lm/W",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.1284293681383133,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -1084,7 +1084,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.8333333333333333,
     "answer_output_bloomz_7b1": "MPIC",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.09271670132875443,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -1220,7 +1220,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "26 nM",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.07201819866895676,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -1339,7 +1339,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.1111111111111111,
     "answer_output_bloomz_7b1": "SO",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.10859737545251846,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.6666666666666666
   },
   {
@@ -1573,7 +1573,7 @@
     "rouge_score_output_llama_7b": 0.11764705882352941,
     "answer_output_alpaca_lora_7b": "Polyester hydrolases (PETases)",
     "answer_length_output_alpaca_lora_7b": 3,
-    "proximity_output_alpaca_lora_7b": -0.013537216931581497,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 0.8,
     "answer_output_bloomz_7b1": "PETases",
     "answer_length_output_bloomz_7b1": 1,
@@ -1951,7 +1951,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.1111111111111111,
     "answer_output_bloomz_7b1": "CP2K",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.019778020679950714,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -2665,7 +2665,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "Rosanna Chung",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.03403979167342186,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -2716,7 +2716,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.2222222222222222,
     "answer_output_bloomz_7b1": "OH",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.012567342258989811,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -3515,7 +3515,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.049999999999999996,
     "answer_output_bloomz_7b1": "Pasi Korkalo",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.15362992882728577,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -4646,15 +4646,15 @@
     "text": "Three-dimensional (3D) bioprinting is a useful technique that has been widely utilized in our lives, ranging from reconstructive plastic surgery to artificial organ production. However, many biopolymers, such as nucleic acids, polysaccharides, and proteins, cannot be readily constructed into a desired 3D shape at the submicron- or nanoscale due to their inherent rheological and structural properties. Can we truly achieve the free-form and high-resolution structuring of various biomolecules using 3D printing technology?          A team of researchers from the Department of Materials Science and Engineering at POSTECH led by Professor Seung Soo Oh, Professor Emeritus Jung Ho Je, Dr. Moon-Jung Yong, and Ph.D. candidates Un Yang and Byunghwa Kang has developed a groundbreaking 3D printing technology that directly allows precise writing and patterning of various biopolymers with full mechanical stability and functional integrity.Their findings have been published in Advanced Science.The research team has presented a novel 3D printing strategy that preserves the folding structure and molecular function of various biopolymers by sequentially confining, evaporating, and solidifying a biopolymer-containing solution.Irrespective of biopolymer types, this technique can produce 3D biopolymeric architectures with precisely-controlled size and geometry at submicron resolution.Furthermore, it allows the printed biopolymers to exhibit their own desired functions, thereby achieving pin-point localization of spatiotemporal biofunctions, including molecular recognition and catalytic reactions.                3D nanopatterns of biopolymers. The new printing technology allows for precise construction of 3D patterns using various biopolymers such as nucleic acids, polysaccharides, and proteins in the form of pillar and arch-shaped nanowires. Credit: POSTECH             This 3D printing technique can be applied in various fields by utilizing the principle that at molecular levels, the evaporation and solidification of pure biopolymer-containing solution occurs regardless of the biopolymer type. It is also highly advantageous that this printing process does not cause any damage or deformation to the biopolymers, due to a mild processing environment under room temperature and ambient air without any additives.This breakthrough is expected to have wide-ranging applications in the development of materials that can analyze and mimic microscale biological tissues. It can be also applicable to manufacture artificial cells and tissues that can function properly in a biological environment, as well as to produce biochips. The researchers now plan to develop next-generation cell-mimicking device printing methods for practical diagnostics and drug development.\"The significance of this research lies in proving for the first time the possibility of printing 100% functionally and structurally active biopolymers in ultrafine 3D structures,\" emphasized Professor Seung Soo Oh, the POSTECH team leader. Professor Emeritus Jung Ho Je commented, \"It holds the potential to expand to the printing of various materials with diverse optical and electrical properties, including complex materials such as quantum dots and carbon nanotubes.\" More information:Un Yang et al, Type\u2010Independent 3D Writing and Nano\u2010Patterning of Confined Biopolymers, Advanced Science (2023).  DOI: 10.1002/advs.202207403Journal information:Advanced ScienceProvided byPohang University of Science and TechnologyCitation:Entering a new era of 3D printing for DNAs and proteins (2023, April 12)retrieved 30 May 2023from https://phys.org/news/2023-04-era-3d-dnas-proteins.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "Seung Soo Oh Seung Soo Oh",
     "answer_length_output_llama_7b": 6,
-    "proximity_output_llama_7b": -0.16469085216522217,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.6,
     "answer_output_alpaca_lora_7b": "Seung Soo Oh",
     "answer_length_output_alpaca_lora_7b": 3,
-    "proximity_output_alpaca_lora_7b": -0.16469083726406097,
+    "proximity_output_alpaca_lora_7b": 0.0,
     "rouge_score_output_alpaca_lora_7b": 0.8571428571428571,
     "answer_output_bloomz_7b1": "Professor Seung Soo Oh",
     "answer_length_output_bloomz_7b1": 4,
-    "proximity_output_bloomz_7b1": -0.10137026011943817,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -4824,7 +4824,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.6666666666666666,
     "answer_output_bloomz_7b1": "PHAs",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.03155452758073807,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
@@ -5190,7 +5190,7 @@
     "text": "New research from a team of scientists at the Cornell University Center for Bright Beams has made significant strides in developing new techniques to guide the growth of materials used in next-generation particle accelerators.          The study, published in the Journal of Physical Chemistry C, reveals the potential for greater control over the growth of superconducting Nb3Sn films, which could significantly reduce the cost and size of cryogenic infrastructure required for superconducting technology.Superconducting accelerator facilities, such as those used for X-ray free-electron laser radiation, rely on niobium superconducting radio frequency (SRF) cavities to generate high-energy beams. However, the associated cryogenic infrastructure, energy consumption, and operating costs of niobium SRF cavities limit access to this technology.To address this issue, researchers have been working to identify superconducting materials that can operate at temperatures higher than 2 Kelvin with comparable quality factors to niobium (Nb) SRF cavities. One of the most promising materials is triniobium tin (Nb3Sn), an alloy with an operating temperature of 18 Kelvin, thus reducing the need for expensive cryogenic infrastructure.Despite theoretical and experimental advancements in the performance of Nb3Sn-coated cavities, there is still a need for a thorough understanding of how to grow higher quality Nb3Sn alloy films.\"Nb3Sn cavities are going to be the accelerators of the future,\" says Ritchie Patterson, the Helen T. Edwards Professor of Physics in the College of Arts and Sciences and director of the Center for Bright Beams. \"Advancing this science is only made possible through diverse collaborations\u2014an important focus at the heart of CBB. The expertise and close collaborations between all of our partner institutions are driving this research into the future.\"                The metal deposition chamber. Credit: Cornell University             This new CBB research, conducted by experimental materials chemists at the University of Chicago coupled with theoretical physicists at the University of Florida, delivers the first atomic-scale images of Sn on oxidized niobium, depicting the early stages of Nb3Sn formation. This visualization of Sn adsorption and diffusion on oxidized niobium is an essential advancement in creating a mechanistic formula for optimizing the fabrication of next generation accelerator cavities.      \"The quality and accelerating performance of Nb3Sn depends on many convoluted variables at play during the growth procedure,\" says Sarah Willson, CBB graduate student at the University of Chicago and co-lead author of the paper along with postdoctoral scholar Rachael Farber. \"We are aiming to look at the initial steps of a complicated growth process and isolate certain variables in a controlled setting.\" Their atomic-level growth experiments are supported by quantum theory from graduate student Ajinkya Hire.As Nb3Sn accelerator cavities are prepared, scientists aim to reduce impurities and contaminants from the niobium cavity to achieve a cleaner and more uniform surface. The cavity is then heated to high temperatures in the presence of an Sn vapor. This causes the Sn to diffuse into the Nb layer, forming Nb3Sn. As careful measures are taken to grow a pristine Nb3Sn film, looking closely across the cavity reveals a highly disordered, rough, polycrystalline surface\u2014not the consistent single-crystal surface ideal for a highly controlled experiment.Willson explains that in order to conduct this experiment, they recreate, in a way, the real-world process of cavity-making, but further surpass the temperature demands needed\u2014heating the materials to 1630 degrees Celsius, and creating an atomically-flat niobium oxide surface to showcase the interactions of Sn, Nb, and O at the atomic level.Observations of metal oxides are routinely performed using scanning tunneling microscopy, STM, revealing information at the atomic scale. However, the specific setup for studying Nb3Sn growth with STM is not readily available. So, Willson and Farber created one.They designed and built a custom metal deposition chamber to deposit the Sn on the niobium surface. This technique recreates the real-world environment in which accelerator cavities are developed\u2014with the ability to prevent surface contamination\u2014while allowing researchers to study the deposition using STM.                Credit: The Journal of Physical Chemistry C (2023). DOI: 10.1021/acs.jpcc.2c08458             \"We have taken a state-of-the-art STM setup, which was not really built to study high temperature metallic growth and alloy formation, but through the funds from CBB, have added the intermetallic growth chamber that allows us to do these experiments in-situ,\" says Willson, stating that using the intermetallic growth section reveals the individual Sn atoms integrating with the niobium subsurface.\"We see that even in our highly-controlled environment, the Nb surface serves as a major roadblock in preventing Sn diffusion required for Nb3Sn formation,\" says Willson. \"Improving Nb3Sn growth is much more than just simply developing a uniform coating layer of tin on niobium.\"This study was led by corresponding author Steven Sibener, Carl William Eisendrath Distinguished Service Professor at the University of Chicago, in collaboration with CBB faculty member Richard Hennig, Alumni Professor of Materials Science and Engineering at the University of Florida.Sibener, a physical chemist, says that the collaboration between different areas of accelerator and non-accelerator sciences is unique in his experience, helping to lay the groundwork for advancing particle accelerators and looks forward to the promising developments of Nb3Sn.\"The collaborations that CBB sparks, the ability for surface chemists, materials engineers, accelerator physicists, and theorists to interact in this way, has certainly empowered and strengthened this research,\" says Willson. \"Personally, I gained a deeper understanding of how to properly navigate the challenges associated with the differing jargon, priorities, and research perspectives across scientific fields. Many chemists are interested in these types of interfacial metallic growth challenges that are encountered by engineers and physicists. This collaboration facilitated extensive interdisciplinary communication that has made conducting a study like this more comfortable and efficient.\" More information:Sarah A. Willson et al, Submonolayer and Monolayer Sn Adsorption and Diffusion Behavior on Oxidized Nb(100), The Journal of Physical Chemistry C (2023).  DOI: 10.1021/acs.jpcc.2c08458Journal information:Journal of Physical Chemistry CProvided byCornell UniversityCitation:Researchers capture first atomic-scale images depicting early stages of particle accelerator film formation (2023, April 6)retrieved 30 May 2023from https://phys.org/news/2023-04-capture-atomic-scale-images-depicting-early.html  This document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no part may be reproduced without the written permission. The content is provided for information purposes only.",
     "answer_output_llama_7b": "18 K. 18 K. 18 K.  Q",
     "answer_length_output_llama_7b": 7,
-    "proximity_output_llama_7b": -0.17799681425094604,
+    "proximity_output_llama_7b": 0.0,
     "rouge_score_output_llama_7b": 0.22222222222222224,
     "answer_output_alpaca_lora_7b": "18 Kelvin.",
     "answer_length_output_alpaca_lora_7b": 2,
@@ -5198,7 +5198,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "18 Kelvin",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.2291659414768219,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -5266,7 +5266,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.18181818181818182,
     "answer_output_bloomz_7b1": "nickel (111)",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.03826829046010971,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.6666666666666666
   },
   {
@@ -5844,7 +5844,7 @@
     "rouge_score_output_alpaca_lora_7b": 1.0,
     "answer_output_bloomz_7b1": "Tim Peterson",
     "answer_length_output_bloomz_7b1": 2,
-    "proximity_output_bloomz_7b1": -0.0758378729224205,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -6354,7 +6354,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.33333333333333337,
     "answer_output_bloomz_7b1": "Vow",
     "answer_length_output_bloomz_7b1": 1,
-    "proximity_output_bloomz_7b1": -0.025909624993801117,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 1.0
   },
   {
@@ -6694,7 +6694,7 @@
     "rouge_score_output_alpaca_lora_7b": 0.0,
     "answer_output_bloomz_7b1": "W. Walker Smith",
     "answer_length_output_bloomz_7b1": 3,
-    "proximity_output_bloomz_7b1": -0.053767986595630646,
+    "proximity_output_bloomz_7b1": 0.0,
     "rouge_score_output_bloomz_7b1": 0.0
   },
   {
