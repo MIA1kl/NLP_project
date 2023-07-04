@@ -13,8 +13,7 @@ def calculate_answer_length(answer):
     return len(answer.split())
 
 # Calculate proximity between question and answer in context
-def calculate_proximity(question, answer, context):
-    doc = nlp(context)
+def calculate_proximity(question, answer):
     question_vector = nlp(question).vector
     answer_vector = nlp(answer).vector if answer.strip() else nlp('').vector
 
@@ -38,10 +37,12 @@ def create_subset(data_points):
     for data_point in data_points:
         if isinstance(data_point, dict) and all(key in data_point for key in required_keys):
             question_squad = data_point["question_squad"]
+            answer_squad = data_point["answer_squad"]
             text = data_point["text"]
 
             subset_data_point = {
                 "question_squad": question_squad,
+                "answer_squad": answer_squad,
                 "text": text,
             }
 
@@ -53,8 +54,8 @@ def create_subset(data_points):
 
                 answer = data_point[model_key]
                 answer_length = calculate_answer_length(answer)
-                proximity_score = calculate_proximity(question_squad, answer, text)
-                rouge_score = calculate_rouge_score(answer, text)
+                proximity_score = calculate_proximity(question_squad, answer)
+                rouge_score = calculate_rouge_score(answer, answer_squad)
 
                 subset_data_point[answer_key] = answer
                 subset_data_point[answer_length_key] = answer_length
@@ -104,7 +105,7 @@ input_folder = "group_5_cleaned"
 output_folder = "group_5_evaluated"
 
 # Define the required keys for the data points
-required_keys = ["question_squad", "output_llama-7b", "output_alpaca-lora-7b", "output_bloomz-7b1", "text"]
+required_keys = ["question_squad","answer_squad", "output_llama-7b", "output_alpaca-lora-7b", "output_bloomz-7b1", "text"]
 
 # Process the files in the input folder and save the output in the output folder
 process_files(input_folder, output_folder)
