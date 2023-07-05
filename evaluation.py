@@ -5,25 +5,20 @@ import json
 import numpy as np
 from scipy.spatial.distance import cosine
 
-# Load the spaCy model
 nlp = spacy.load("en_core_web_md")
 
-# Calculate answer length
 def calculate_answer_length(answer):
     return len(answer.split())
 
-# Calculate proximity between question and answer in context
+# Calculate proximity between question and answer 
 def calculate_proximity(question, answer):
     question_vector = nlp(question).vector
     answer_vector = nlp(answer).vector if answer.strip() else nlp('').vector
-
-    # Check for zero magnitude vectors
+    
     if np.count_nonzero(question_vector) <= 0 or np.count_nonzero(answer_vector) <= 0:
         return 0.0
 
     proximity_score = 1 - cosine(question_vector, answer_vector)
-
-    # Clip the proximity score to the range [0, 1]
     proximity_score = np.clip(proximity_score, 0.0, 1.0)
 
     return proximity_score
@@ -34,7 +29,6 @@ def calculate_rouge_score(answer, reference):
     scores = scorer.score(answer, reference)
     return scores['rouge1'].fmeasure
 
-# Apply selection rules and create a subset
 def create_subset(data_points):
     processed_dataset = []
 
@@ -70,7 +64,6 @@ def create_subset(data_points):
 
     return processed_dataset
 
-# Read the dataset file and create the subset
 def read_dataset_file(file_path):
     dataset = []
 
@@ -84,32 +77,24 @@ def read_dataset_file(file_path):
         except json.JSONDecodeError:
             print("Invalid JSON data:", file_path)
 
-    # Process the dataset
     return create_subset(dataset)
 
 def process_files(input_folder, output_folder):
-    # Create the output folder if it doesn't exist
     os.makedirs(output_folder, exist_ok=True)
 
-    # Process each file in the input folder
     for file_name in os.listdir(input_folder):
         input_file_path = os.path.join(input_folder, file_name)
         output_file_name = file_name.replace("cleaned", "evaluated")
         output_file_path = os.path.join(output_folder, output_file_name)
-
-        # Read the dataset file and create the subset
         subset = read_dataset_file(input_file_path)
 
-        # Write the sorted dataset to the subset file
         with open(output_file_path, 'w') as f:
             json.dump(subset, f, indent=2)
 
-# Set the paths to the input and output folders
 input_folder = "group_5_cleaned"
 output_folder = "group_5_evaluated"
 
-# Define the required keys for the data points
+
 required_keys = ["question_squad","answer_squad", "output_llama-7b", "output_alpaca-lora-7b", "output_bloomz-7b1", "text"]
 
-# Process the files in the input folder and save the output in the output folder
 process_files(input_folder, output_folder)

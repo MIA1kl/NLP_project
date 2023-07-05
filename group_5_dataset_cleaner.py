@@ -1,8 +1,8 @@
 import os
 import json
 
-input_folder = "group_5"  # Path to the folder containing the input files
-output_folder = "group_5_cleaned"  # Path to the folder where you want to save the output files
+input_folder = "group_5"  
+output_folder = "group_5_cleaned"  
 
 files = [
     "qa_pairs-cleaned-biology-news.jsonl",
